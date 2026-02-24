@@ -3,7 +3,16 @@ import { GoogleGenAI, Type } from '@google/genai';
 import { createGoal, createKeyResult, getGoalsByWorkspace } from '@/app/actions/goals';
 import { saveChatMessage } from '@/app/actions/chat';
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+// Inicialización segura para evitar errores en "next build" (Railway) si no hay variable
+const initGenAI = () => {
+    const apiKey = process.env.GEMINI_API_KEY;
+    if (!apiKey) {
+        console.warn("GEMINI_API_KEY is not set. AI features disabled.");
+        return null;
+    }
+    return new GoogleGenAI({ apiKey });
+};
+const ai = initGenAI();
 
 export async function POST(request: Request) {
     try {
@@ -40,6 +49,10 @@ export async function POST(request: Request) {
         // Guardar el mensaje del usuario en BD si hay una sesión activa
         if (sessionId && lastUserMessage) {
             await saveChatMessage(sessionId, 'user', lastUserMessage);
+        }
+
+        if (!ai) {
+            return NextResponse.json({ reply: '🤖 Lo siento, la Inteligencia Artificial está desactivada temporalmente. Por favor, configura tu API Key de Gemini en las variables de entorno para usarla.' });
         }
 
         const response = await ai.models.generateContent({
