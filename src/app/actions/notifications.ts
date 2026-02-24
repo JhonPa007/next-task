@@ -4,12 +4,19 @@ import { prisma } from '@/lib/prisma';
 import { getCurrentUser } from '@/app/actions/user';
 import webpush from 'web-push';
 
-// Configurar con las llaves VAPID (Las llaves deben estar en el .env)
-webpush.setVapidDetails(
-    'mailto:test@example.com',
-    process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY || '',
-    process.env.VAPID_PRIVATE_KEY || ''
-);
+const publicKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY;
+const privateKey = process.env.VAPID_PRIVATE_KEY;
+
+// Configurar con las llaves VAPID solo si existen (evita que el build crashee en Railway)
+if (publicKey && privateKey) {
+    webpush.setVapidDetails(
+        'mailto:test@example.com',
+        publicKey,
+        privateKey
+    );
+} else {
+    console.warn("VAPID keys are not set. Push notifications will be disabled.");
+}
 
 /**
  * Guarda o actualiza la suscripción Push del navegador del dispositivo actual de este usuario.
@@ -50,6 +57,11 @@ export async function savePushSubscription(subscription: any) {
  */
 export async function sendNotificationToUser(userId: string, title: string, body: string, url: string = '/') {
     try {
+        if (!publicKey || !privateKey) {
+            console.warn("Cannot send push notification because VAPID keys are not configured.");
+            return { success: false, message: 'VAPID keys missing' };
+        }
+
         // Encontrar todas las suscripciones activas del usuario (puede tener PC, iPhone, etc)
         const subs = await prisma.pushSubscription.findMany({
             where: { userId }
