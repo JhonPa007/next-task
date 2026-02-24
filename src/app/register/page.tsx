@@ -41,8 +41,8 @@ export default function RegisterPage() {
                 setError('Cuenta creada, pero hubo un error ingresando. Intenta iniciar sesión manualmente.');
                 setIsLoading(false);
             } else {
-                router.push('/');
-                router.refresh();
+                // Hard redirect
+                window.location.href = '/';
             }
 
         } catch (err: any) {

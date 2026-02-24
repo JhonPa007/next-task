@@ -29,8 +29,8 @@ export default function LoginPage() {
                 setError(res.error);
                 setIsLoading(false);
             } else {
-                router.push('/');
-                router.refresh(); // Refrescar el estado global de la app
+                // Hard redirect para forzar recarga completa y re-evaluación del Middleware
+                window.location.href = '/';
             }
         } catch (err: any) {
             setError('Error de red al intentar iniciar sesión.');
