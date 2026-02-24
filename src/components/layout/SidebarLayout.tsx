@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import Sidebar from './Sidebar';
 import styles from './SidebarLayout.module.css';
 
@@ -13,6 +14,9 @@ export default function SidebarLayout({ children, initialWorkspaces }: SidebarLa
     const [isCollapsed, setIsCollapsed] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
     const [isMounted, setIsMounted] = useState(false);
+    const pathname = usePathname();
+
+    const isAuthPage = pathname === '/login' || pathname === '/register';
 
     useEffect(() => {
         setIsMounted(true);
@@ -30,6 +34,11 @@ export default function SidebarLayout({ children, initialWorkspaces }: SidebarLa
     }, []);
 
     const toggleSidebar = () => setIsCollapsed(!isCollapsed);
+
+    // Si es Login o Registro, no dibujamos la barra lateral para nada
+    if (isAuthPage) {
+        return <>{children}</>;
+    }
 
     return (
         <div className={styles.layout}>

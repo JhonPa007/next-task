@@ -16,6 +16,11 @@ export default function FloatingChatbot() {
     const pathname = usePathname();
     const router = useRouter();
 
+    // No mostrar el chatbot en Login/Register
+    if (pathname === '/login' || pathname === '/register') {
+        return null;
+    }
+
     // Determine workspaceId based on current url
     const workspaceId = pathname && pathname.includes('/workspace/') ? pathname.split('/').pop() || null : null;
 
@@ -107,6 +112,11 @@ export default function FloatingChatbot() {
             setIsLoading(false);
         }
     };
+
+    // No mostrar el chatbot en Login/Register
+    if (pathname === '/login' || pathname === '/register') {
+        return null;
+    }
 
     return (
         <div className={styles.chatbotWrapper}>
