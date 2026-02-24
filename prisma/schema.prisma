@@ -1,0 +1,255 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id         String            @id @default(cuid())
+  email      String            @unique
+  name       String?
+  createdAt         DateTime           @default(now())
+  updatedAt         DateTime           @updatedAt
+  tasks             TaskAssignee[]
+  workspaces        WorkspaceMember[]
+  pushSubscriptions PushSubscription[]
+  routines          Routine[]
+  kudosSent         Kudo[]             @relation("KudosSent")
+  kudosReceived     Kudo[]             @relation("KudosReceived")
+  checkIns          CheckIn[]
+}
+
+model Workspace {
+  id           String            @id @default(cuid())
+  name         String
+  description  String?
+  createdAt    DateTime          @default(now())
+  updatedAt    DateTime          @updatedAt
+  aiProfile    AiProfile?
+  chatSessions ChatSession[]
+  goals        Goal[]
+  projects     Project[]
+  tasks        TaskWorkspace[]
+  members      WorkspaceMember[]
+  kudos        Kudo[]
+}
+
+model WorkspaceMember {
+  id          String    @id @default(cuid())
+  userId      String
+  workspaceId String
+  role        String    @default("MEMBER")
+  createdAt   DateTime  @default(now())
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  workspace   Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, workspaceId])
+}
+
+model AiProfile {
+  id           String    @id @default(cuid())
+  workspaceId  String    @unique
+  voice        String?
+  systemPrompt String?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  workspace    Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+}
+
+model Goal {
+  id          String      @id @default(cuid())
+  workspaceId String
+  title       String
+  description String?
+  type        String      @default("QUALITATIVE")
+  status      String      @default("ON_TRACK")
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  workspace   Workspace   @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  keyResults  KeyResult[]
+}
+
+model KeyResult {
+  id           String    @id @default(cuid())
+  goalId       String
+  title        String
+  targetValue  Float
+  currentValue Float     @default(0)
+  unit         String?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  goal         Goal      @relation(fields: [goalId], references: [id], onDelete: Cascade)
+  projects     Project[]
+}
+
+model Project {
+  id          String        @id @default(cuid())
+  workspaceId String
+  keyResultId String?
+  name        String
+  description String?
+  status      String        @default("PLANNED")
+  startDate   DateTime?
+  endDate     DateTime?
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+  keyResult   KeyResult?    @relation(fields: [keyResultId], references: [id])
+  workspace   Workspace     @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  tasks       TaskProject[]
+}
+
+model Task {
+  id          String          @id @default(cuid())
+  title       String
+  description String?
+  status      String          @default("TODO")
+  priority    String          @default("MEDIUM")
+  startDate   DateTime?
+  dueDate     DateTime?
+  createdAt   DateTime        @default(now())
+  assignees   TaskAssignee[]
+  projects    TaskProject[]
+  workspaces  TaskWorkspace[]
+  subtasks    Subtask[]
+  checkIns    CheckIn[]
+}
+
+model TaskAssignee {
+  taskId String
+  userId String
+  task   Task   @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([taskId, userId])
+}
+
+model TaskProject {
+  taskId    String
+  projectId String
+  project   Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  task      Task    @relation(fields: [taskId], references: [id], onDelete: Cascade)
+
+  @@id([taskId, projectId])
+}
+
+model TaskWorkspace {
+  taskId      String
+  workspaceId String
+  task        Task      @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  workspace   Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+
+  @@id([taskId, workspaceId])
+}
+
+model ChatSession {
+  id          String        @id @default(cuid())
+  workspaceId String?
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+  messages    ChatMessage[]
+  workspace   Workspace?    @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+}
+
+model ChatMessage {
+  id            String      @id @default(cuid())
+  chatSessionId String
+  role          String
+  text          String
+  createdAt     DateTime    @default(now())
+  chatSession   ChatSession @relation(fields: [chatSessionId], references: [id], onDelete: Cascade)
+}
+
+model Subtask {
+  id          String   @id @default(cuid())
+  taskId      String
+  title       String
+  isCompleted Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  task        Task     @relation(fields: [taskId], references: [id], onDelete: Cascade)
+}
+
+model PushSubscription {
+  id        String   @id @default(cuid())
+  userId    String
+  endpoint  String   @unique
+  p256dh    String
+  auth      String
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// ==========================================
+// NAGGING TASKS (Alarmas Persistentes)
+// ==========================================
+
+model Routine {
+  id              String   @id @default(cuid())
+  title           String
+  isCompleted     Boolean  @default(false)
+  
+  // Evidencia aportada por el usuario (URL o Texto de confirmación)
+  evidence        String?
+  
+  // Fecha en la que sonará la próxima Push Notification
+  nextPingAt      DateTime
+  
+  // Frecuencia de repetición (ej: cada 15 minutos, 30 minutos, etc.)
+  intervalMinutes Int      @default(30)
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, isCompleted])
+}
+
+// ==========================================
+// GAMIFICATION: KUDOS
+// ==========================================
+
+model Kudo {
+  id          String    @id @default(cuid())
+  message     String
+  points      Int       @default(10)
+  createdAt   DateTime  @default(now())
+
+  senderId    String
+  sender      User      @relation("KudosSent", fields: [senderId], references: [id], onDelete: Cascade)
+  
+  receiverId  String
+  receiver    User      @relation("KudosReceived", fields: [receiverId], references: [id], onDelete: Cascade)
+  
+  // Opcional: El Kudo puede estar atado a un Workspace específico
+  workspaceId String?
+  workspace   Workspace? @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+
+  @@index([workspaceId])
+  @@index([receiverId])
+}
+
+// ==========================================
+// FEEDBACK: CHECK-INS 1-A-1
+// ==========================================
+
+model CheckIn {
+  id              String    @id @default(cuid())
+  accomplishments String
+  blockers        String?
+  morale          String    @default("NORMAL") // EXCELENTE, NORMAL, ESTRESADO
+  createdAt       DateTime  @default(now())
+
+  userId          String
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  taskId          String
+  task            Task      @relation(fields: [taskId], references: [id], onDelete: Cascade)
+
+  @@index([taskId])
+  @@index([userId])
+}

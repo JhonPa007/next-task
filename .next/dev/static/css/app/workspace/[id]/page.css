@@ -1,0 +1,1563 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/components/board/TableView.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.TableView_container__xkWHw {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.TableView_group__HSbuY {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.TableView_groupHeader__eEZZX {
+    display: grid;
+    grid-template-columns: 6px minmax(200px, 2fr) 140px 120px 240px 120px 40px;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.TableView_groupTitle__1jdSZ {
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    grid-column: 2 / 3;
+}
+
+.TableView_expandIcon__dOTFU {
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.TableView_columns__Ixbuc {
+    display: contents;
+    font-weight: 500;
+    color: var(--foreground);
+    font-size: 0.8rem;
+}
+
+.TableView_columns__Ixbuc span {
+    text-align: center;
+}
+
+.TableView_taskList__ttSc4 {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.TableView_taskRow__W1zDS {
+    display: grid;
+    grid-template-columns: 6px minmax(200px, 2fr) 140px 120px 240px 120px 40px;
+    align-items: center;
+    background-color: var(--background);
+    border: 1px solid var(--border-color, #e0e0e0);
+    border-radius: var(--radius-sm);
+    transition: all 0.2s ease;
+}
+
+.TableView_taskRow__W1zDS:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.TableView_indicator__i3ZGC {
+    width: 100%;
+    height: 36px;
+    border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+}
+
+.TableView_taskTitle__pS2zE {
+    padding: 0 1rem;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.TableView_rowExpandBtn__iDnhf {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.75rem;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.TableView_rowExpandBtn__iDnhf:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.TableView_progressCounter__V_Ehs {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 2px 6px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+[data-theme='dark'] .TableView_progressCounter__V_Ehs {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme='dark'] .TableView_rowExpandBtn__iDnhf:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.TableView_owner__vCrid,
+.TableView_status__hEfOZ,
+.TableView_timeline__OscKK,
+.TableView_dueDate__RT05N,
+.TableView_priority__RnnaH,
+.TableView_addCol__qdp7Y {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    border-left: 1px solid var(--border-color, #e0e0e0);
+    font-size: 0.8rem;
+}
+
+.TableView_status__hEfOZ,
+.TableView_priority__RnnaH {
+    color: white;
+    font-weight: 500;
+    padding: 0;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    width: 100%;
+    height: 100%;
+}
+
+.TableView_status__hEfOZ:hover,
+.TableView_priority__RnnaH:hover {
+    opacity: 0.85;
+}
+
+.TableView_avatar__pDQA8 {
+    width: 28px;
+    height: 28px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.TableView_timeline__OscKK {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+    color: var(--text-muted);
+}
+
+.TableView_dateInput__ibaAW {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text-color);
+    font-size: 0.75rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.TableView_dateInput__ibaAW:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.TableView_assigneeSelect__QlNng {
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    font-size: 0.85rem;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    appearance: none;
+    text-align-last: center;
+    padding: 4px;
+}
+
+.TableView_assigneeSelect__QlNng option {
+    background-color: var(--background, #1a1b26);
+    color: var(--foreground, #ffffff);
+}
+
+.TableView_assigneeSelect__QlNng:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.TableView_priority__RnnaH {
+    color: white;
+}
+
+.TableView_addCol__qdp7Y {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.TableView_editableInput__wVkQT,
+.TableView_newTaskInput__6gG9H {
+    flex: 1 1;
+    min-width: 0;
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text-color);
+    font-size: 0.95rem;
+    padding: 4px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.TableView_editableInput__wVkQT:hover,
+.TableView_editableInput__wVkQT:focus {
+    border-color: var(--border-color);
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.TableView_newTaskInput__6gG9H {
+    color: var(--text-muted);
+}
+
+.TableView_newTaskInput__6gG9H:focus {
+    color: var(--text-color);
+}
+
+.TableView_deleteBtn__U2_Z0 {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0.3;
+    font-size: 0.85rem;
+}
+
+.TableView_taskRow__W1zDS:hover .TableView_deleteBtn__U2_Z0 {
+    opacity: 1;
+}
+
+.TableView_deleteBtn__U2_Z0:hover {
+    color: red;
+}
+
+[data-theme='dark'] .TableView_taskRow__W1zDS:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+[data-theme='dark'] .TableView_avatar__pDQA8 {
+    background-color: #333;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/components/board/SubtaskList.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.SubtaskList_subtaskContainer__YSqQu {
+    padding: 0.5rem 1rem 1rem 3rem;
+    background-color: rgba(0, 0, 0, 0.02);
+    border-top: 1px solid var(--border-color, #e0e0e0);
+    grid-column: 1 / -1;
+    /* spans full width of the parent grid */
+}
+
+@media (prefers-color-scheme: dark) {
+    .SubtaskList_subtaskContainer__YSqQu {
+        background-color: rgba(255, 255, 255, 0.02);
+    }
+}
+
+.SubtaskList_subtaskList__He_jS {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.SubtaskList_subtaskItem__29ejh {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.SubtaskList_subtaskItem__29ejh:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+    .SubtaskList_subtaskItem__29ejh:hover {
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+}
+
+.SubtaskList_checkbox__7fXZs {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: var(--primary);
+}
+
+.SubtaskList_subtaskInput__wC9D2 {
+    flex: 1 1;
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text-color);
+    font-size: 0.85rem;
+    padding: 4px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.SubtaskList_subtaskItem__29ejh.SubtaskList_completed__7t_n_ .SubtaskList_subtaskInput__wC9D2 {
+    text-decoration: line-through;
+    color: var(--text-muted);
+}
+
+.SubtaskList_subtaskInput__wC9D2:hover,
+.SubtaskList_subtaskInput__wC9D2:focus {
+    border-color: var(--border-color);
+    background: var(--background);
+}
+
+.SubtaskList_deleteBtn__lfkMg {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-size: 0.8rem;
+    padding: 4px;
+}
+
+.SubtaskList_subtaskItem__29ejh:hover .SubtaskList_deleteBtn__lfkMg {
+    opacity: 1;
+}
+
+.SubtaskList_deleteBtn__lfkMg:hover {
+    color: red;
+}
+
+.SubtaskList_newSubtaskRow__QyCxM {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 4px 8px;
+    margin-top: 4px;
+}
+
+.SubtaskList_iconHolder__oQTGo {
+    width: 16px;
+    height: 16px;
+    border: 1px dashed var(--border-color);
+    border-radius: 2px;
+}
+
+.SubtaskList_newInput__GtjPA {
+    flex: 1 1;
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    padding: 4px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.SubtaskList_newInput__GtjPA:focus,
+.SubtaskList_newInput__GtjPA:active {
+    color: var(--text-color);
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/components/board/BoardView.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.BoardView_boardContainer__RpxK9 {
+    padding: 1rem 2rem;
+    background-color: #1a1e2d;
+    /* From reference image */
+    min-height: 50vh;
+    border-radius: var(--radius-md);
+    margin: 0 2rem 2rem 2rem;
+    color: #fff;
+}
+
+.BoardView_boardTitle__sY1jl {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.BoardView_boardScroll__RzTWY {
+    overflow-x: auto;
+    padding-bottom: 1rem;
+}
+
+.BoardView_columnsWrapper__R1B7K {
+    display: flex;
+    gap: 1.5rem;
+    min-width: max-content;
+}
+
+.BoardView_column__O4rYZ {
+    width: 280px;
+    /* Slightly wider cards for Kanban */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: var(--radius-md);
+    transition: background-color 0.2s ease;
+    padding-bottom: 2rem;
+    /* Buffer zone for dropping at the bottom */
+}
+
+.BoardView_column__O4rYZ.BoardView_dragOver__up9N4 {
+    background-color: rgba(255, 255, 255, 0.05);
+    /* Highlight area */
+}
+
+.BoardView_columnHeader__auomu {
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+}
+
+.BoardView_columnBody__aNsUw {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.BoardView_card__vmhue {
+    background: white;
+    color: #333;
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    cursor: grab;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s;
+    border: 1px solid transparent;
+}
+
+.BoardView_card__vmhue.BoardView_dragging__7WvQ1 {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+
+.BoardView_card__vmhue:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.BoardView_cardHeader__K2gHF {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.BoardView_priorityBadge__Erpw5 {
+    font-size: 0.75rem;
+}
+
+.BoardView_assigneeAvatar__w6IyO {
+    width: 24px;
+    height: 24px;
+    background-color: var(--primary, #3b82f6);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.BoardView_cardTitle__n_5Nq {
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.4;
+    word-break: break-word;
+}
+
+.BoardView_cardFooter__CF8in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.25rem;
+}
+
+.BoardView_subtaskBadge__D3INy {
+    font-size: 0.75rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 2px 6px;
+    border-radius: 12px;
+}
+
+.BoardView_comments__kSKaX {
+    font-size: 0.75rem;
+    color: #888;
+}
+
+.BoardView_cardActions__Ujw5o {
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.BoardView_card__vmhue:hover .BoardView_cardActions__Ujw5o {
+    opacity: 1;
+}
+
+.BoardView_iconBtn__rYZMj {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
+
+.BoardView_iconBtn__rYZMj:hover {
+    opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+    .BoardView_boardContainer__RpxK9 {
+        background-color: transparent;
+        /* Changed from fixed dark blue to fit overall theme */
+    }
+
+    .BoardView_card__vmhue {
+        background: var(--background);
+        color: var(--text-color);
+        border: 1px solid var(--border-color);
+    }
+
+    .BoardView_card__vmhue:hover {
+        border-color: var(--text-muted);
+    }
+
+    .BoardView_subtaskBadge__D3INy {
+        color: var(--text-muted);
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/components/board/CalendarView.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.CalendarView_calendarContainer__bnmu2 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    height: 100%;
+}
+
+.CalendarView_header__4Kpsw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+}
+
+.CalendarView_monthTitle__3bYZA {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--foreground);
+    text-transform: capitalize;
+}
+
+.CalendarView_controls__9nCtc {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.CalendarView_btn__9p_0s,
+.CalendarView_btnIcon__Oeqdd {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    color: var(--foreground);
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.CalendarView_btnIcon__Oeqdd {
+    padding: 0.5rem 0.8rem;
+}
+
+.CalendarView_btn__9p_0s:hover,
+.CalendarView_btnIcon__Oeqdd:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.CalendarView_grid__bVdpo {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: minmax(120px, auto);
+    gap: 1px;
+    background-color: var(--border-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.CalendarView_dayName__wXgKH {
+    background-color: var(--background);
+    text-align: center;
+    padding: 0.75rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.CalendarView_dayCell__ZjrPf {
+    background-color: var(--background);
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 120px;
+    transition: background-color 0.2s;
+}
+
+.CalendarView_dayCell__ZjrPf:hover:not(.CalendarView_emptyCell__f7vT_) {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.CalendarView_emptyCell__f7vT_ {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.CalendarView_dayNumber__hUGUX {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 0.5rem;
+    text-align: right;
+}
+
+.CalendarView_today__1QSBt {
+    background-color: rgba(59, 130, 246, 0.05);
+}
+
+.CalendarView_today__1QSBt .CalendarView_dayNumber__hUGUX {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.CalendarView_tasksWrapper__5FS1M {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1 1;
+    overflow-y: auto;
+}
+
+/* Hide scrollbar for task wrapper */
+.CalendarView_tasksWrapper__5FS1M::-webkit-scrollbar {
+    width: 4px;
+}
+
+.CalendarView_tasksWrapper__5FS1M::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.CalendarView_taskPill__sX4iY {
+    background-color: var(--card-bg, #2a2e3f);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-left: 4px solid var(--primary);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.CalendarView_taskPill__sX4iY:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    filter: brightness(1.2);
+}
+
+.CalendarView_pillText__Qu6Yt {
+    color: var(--foreground);
+    pointer-events: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    .CalendarView_emptyCell__f7vT_ {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/components/board/GanttView.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.GanttView_ganttContainer__WyiRa {
+    background-color: var(--background);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.GanttView_ganttScrollable__u8Naq {
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.GanttView_ganttHeader__FI7MO {
+    display: flex;
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 0.5rem;
+    position: sticky;
+    top: 0;
+    background: var(--background);
+    z-index: 10;
+}
+
+.GanttView_taskLabelHeader__7C6dV {
+    width: 250px;
+    min-width: 250px;
+    padding: 0.5rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    position: sticky;
+    left: 0;
+    background: var(--background);
+    z-index: 11;
+    /* Above other headers */
+    border-right: 1px solid var(--border-color);
+}
+
+.GanttView_timelineHeader___fxYA {
+    display: flex;
+}
+
+.GanttView_dayHeader__cGmiK {
+    width: 40px;
+    min-width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    border-right: 1px dashed rgba(255, 255, 255, 0.05);
+    color: #888;
+}
+
+.GanttView_todayHeader__VmpL1 {
+    color: var(--primary);
+    background-color: rgba(59, 130, 246, 0.05);
+    font-weight: bold;
+}
+
+.GanttView_ganttBody__m3tvF {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.GanttView_ganttRow__ocEBi {
+    display: flex;
+    align-items: center;
+}
+
+.GanttView_taskLabel__qb1Mo {
+    width: 250px;
+    min-width: 250px;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: sticky;
+    left: 0;
+    background: var(--background);
+    z-index: 5;
+    border-right: 1px solid var(--border-color);
+}
+
+.GanttView_timelineRow___4YsJ {
+    position: relative;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.GanttView_ganttBar__Pgy7a {
+    position: absolute;
+    height: 24px;
+    border-radius: 4px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.5rem;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.GanttView_ganttBar__Pgy7a:hover {
+    filter: brightness(1.2);
+}
+
+.GanttView_barProgressText__a3Nu1 {
+    opacity: 0.8;
+}
+
+.GanttView_todayLine__R1zyX {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--primary);
+    opacity: 0.3;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Custom Scrollbar */
+.GanttView_ganttScrollable__u8Naq::-webkit-scrollbar {
+    height: 8px;
+}
+
+.GanttView_ganttScrollable__u8Naq::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/components/board/WorkloadView.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.WorkloadView_workloadContainer__i_7yz {
+    background-color: var(--background);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.WorkloadView_workloadScrollable__ROsAa {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 50vh;
+}
+
+.WorkloadView_headerRow__M0Xgh {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: var(--background);
+    z-index: 10;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.WorkloadView_memberHeader__XTP8b {
+    width: 250px;
+    min-width: 250px;
+    padding: 1rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    border-right: 1px solid var(--border-color);
+    position: sticky;
+    left: 0;
+    background: var(--background);
+    z-index: 11;
+}
+
+.WorkloadView_timelineHeader__DB9hP {
+    display: flex;
+}
+
+.WorkloadView_dayHeader__Yy_zq {
+    width: 45px;
+    min-width: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.WorkloadView_dayNum__T7hq6 {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.WorkloadView_dayWeek__mDYLy {
+    font-size: 0.7rem;
+    color: #888;
+}
+
+.WorkloadView_today__XJRUh {
+    color: var(--primary);
+}
+
+.WorkloadView_weekend__iLsMe {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.WorkloadView_weekendCell__kEq4e {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.WorkloadView_body__KEuha {
+    display: flex;
+    flex-direction: column;
+}
+
+.WorkloadView_memberRow__OP_43 {
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.WorkloadView_memberRow__OP_43:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.WorkloadView_memberInfo__9UdNK {
+    width: 250px;
+    min-width: 250px;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    border-right: 1px solid var(--border-color);
+    position: sticky;
+    left: 0;
+    background: inherit;
+    z-index: 5;
+}
+
+.WorkloadView_avatar__A6Pze {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--card-bg, #2a2e3f);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--text-muted);
+}
+
+.WorkloadView_memberName__cWBnj {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.WorkloadView_timelineRow__nO3Og {
+    display: flex;
+}
+
+.WorkloadView_cell___OZPZ {
+    width: 45px;
+    min-width: 45px;
+    height: 50px;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+
+.WorkloadView_bubble__BCWsU {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: help;
+}
+
+.WorkloadView_legend__Cqv28 {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+    font-size: 0.85rem;
+    color: #aaa;
+}
+
+.WorkloadView_legendItem__Kj132 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.WorkloadView_dot__hpu5M {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Custom Scrollbar */
+.WorkloadView_workloadScrollable__ROsAa::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+.WorkloadView_workloadScrollable__ROsAa::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/components/board/TaskManager.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.TaskManager_taskManager__o9RLE {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+}
+
+.TaskManager_toolbar__NtZLA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.TaskManager_viewToggles__QcL0W {
+    display: flex;
+    gap: 0.5rem;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.TaskManager_toggleBtn__vXVRa {
+    background: transparent;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.TaskManager_toggleBtn__vXVRa.TaskManager_active__KvgbQ {
+    background: var(--background);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    color: var(--primary);
+}
+
+@media (prefers-color-scheme: dark) {
+    .TaskManager_viewToggles__QcL0W {
+        background: rgba(255, 255, 255, 0.05);
+    }
+
+    .TaskManager_toggleBtn__vXVRa.TaskManager_active__KvgbQ {
+        background: var(--card-bg);
+    }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/components/goals/GoalList.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.GoalList_container__MQQRA {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.GoalList_headerRow__oJ0G7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.GoalList_btnPrimary__V4Hvv {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.GoalList_btnPrimary__V4Hvv:hover {
+    background-color: var(--primary-hover);
+}
+
+.GoalList_createCard__z5SMq {
+    background-color: var(--card-bg, #fff);
+    padding: 1rem;
+    border: 1px solid var(--border-color, #e0e0e0);
+    border-radius: var(--radius-sm);
+    display: flex;
+    gap: 1rem;
+}
+
+.GoalList_input__kCdse {
+    flex: 1 1;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color, #e0e0e0);
+    border-radius: var(--radius-sm);
+    font-family: inherit;
+}
+
+.GoalList_btnSave__NnORk {
+    background-color: var(--status-ready);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.GoalList_goalGrid__Yy8_e {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1rem;
+}
+
+.GoalList_goalCard__8_RAn {
+    background-color: var(--card-bg, #fff);
+    border: 1px solid var(--border-color, #e0e0e0);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.GoalList_goalTitleRow__8cXo6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.GoalList_goalTitleRow__8cXo6 h4 {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.GoalList_goalTitleSection__5_1tQ {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1 1;
+}
+
+.GoalList_goalActions__kfxmX {
+    display: none;
+    gap: 0.25rem;
+}
+
+.GoalList_goalTitleSection__5_1tQ:hover .GoalList_goalActions__kfxmX {
+    display: flex;
+}
+
+.GoalList_goalActions__kfxmX button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    padding: 2px 4px;
+    border-radius: 4px;
+    opacity: 0.7;
+}
+
+.GoalList_goalActions__kfxmX button:hover {
+    background-color: var(--border-color);
+    opacity: 1;
+}
+
+.GoalList_badge__OU3VK {
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.GoalList_healthBadge__wCYNN {
+    background-color: var(--surface);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 4px 8px;
+    border-radius: 16px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s;
+}
+
+.GoalList_healthBadge__wCYNN:hover {
+    background-color: var(--primary);
+    color: white;
+    transform: translateY(-1px);
+}
+
+.GoalList_keyResults__P_xcq {
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+}
+
+.GoalList_krLabel___7PaH {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: gray;
+}
+
+.GoalList_emptyKr__6T0Q3 {
+    font-size: 0.85rem;
+    color: #aaa;
+    font-style: italic;
+}
+
+.GoalList_krList__H_G45 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.GoalList_krListItem__FZsRQ {
+    margin-bottom: 0.5rem;
+}
+
+/* KR Display and Actions */
+.GoalList_krItemDisplay__LfgtF {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 0;
+    border-radius: 4px;
+}
+
+.GoalList_krProgressContainer__FRiDk {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.GoalList_krNumbers__tzV5e {
+    font-size: 0.9rem;
+}
+
+.GoalList_krActions__K0tIG {
+    display: none;
+    gap: 0.2rem;
+}
+
+.GoalList_krItemDisplay__LfgtF:hover .GoalList_krActions__K0tIG {
+    display: flex;
+}
+
+.GoalList_krActions__K0tIG button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 2px 4px;
+    opacity: 0.6;
+}
+
+.GoalList_krActions__K0tIG button:hover {
+    opacity: 1;
+    background-color: var(--border-color);
+    border-radius: 4px;
+}
+
+/* KR Forms */
+.GoalList_krEditForm__4g3Xr {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.GoalList_krEditForm__4g3Xr input {
+    font-size: 0.85rem;
+    padding: 4px;
+}
+
+.GoalList_btnSecondary__iY5ps {
+    background: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.GoalList_btnSecondary__iY5ps:hover {
+    background: var(--primary);
+    color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    .GoalList_krEditForm__4g3Xr {
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+}
+
+.GoalList_krList__H_G45 li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 0.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    .GoalList_keyResults__P_xcq {
+        background-color: rgba(255, 255, 255, 0.02);
+    }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/components/layout/Header.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Header_header__hO3lJ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--border-color, #e0e0e0);
+    background: var(--background);
+}
+
+.Header_title__5XPun {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--foreground);
+}
+
+.Header_controls__5RWUE {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.Header_inviteBtn__3kS7Z {
+    background: var(--primary, #3b82f6);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm, 6px);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.2s;
+}
+
+.Header_inviteBtn__3kS7Z:hover {
+    background: #2563eb;
+}
+
+.Header_btnText__Mxde4 {
+    display: inline-block;
+}
+
+.Header_btnIcon__A80OH {
+    background: transparent;
+    border: 1px solid var(--border-color, #e0e0e0);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    color: var(--foreground);
+}
+
+.Header_btnIcon__A80OH:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+    .Header_btnIcon__A80OH:hover {
+        background: rgba(255, 255, 255, 0.05);
+    }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[15].oneOf[5].use[3]!./src/components/workspace/InviteModal.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.InviteModal_modalOverlay__qI67Y {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.InviteModal_modalContent__kAiDV {
+    background-color: var(--sidebar-bg, #1a1e2d);
+    padding: 2rem;
+    border-radius: var(--radius-lg, 12px);
+    width: 90%;
+    max-width: 450px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.InviteModal_closeBtn___8jjF {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    background: none;
+    border: none;
+    color: #999;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: color 0.2s;
+    line-height: 1;
+}
+
+.InviteModal_closeBtn___8jjF:hover {
+    color: white;
+}
+
+.InviteModal_modalTitle__ujn9j {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.InviteModal_modalDesc__DZ9YC {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.InviteModal_form__Svmjv {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.InviteModal_input__Zm3sk {
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+.InviteModal_input__Zm3sk:focus {
+    border-color: var(--primary, #3b82f6);
+}
+
+.InviteModal_message__58dQE {
+    font-size: 0.85rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border-left: 3px solid;
+}
+
+.InviteModal_errorMsg__NVEvm {
+    background-color: rgba(220, 38, 38, 0.1);
+    color: #fca5a5;
+    border-color: #ef4444;
+}
+
+.InviteModal_successMsg__YG7Ca {
+    background-color: rgba(34, 197, 94, 0.1);
+    color: #86efac;
+    border-color: #22c55e;
+}
+
+.InviteModal_submitBtn__PXk8y {
+    padding: 0.75rem;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--primary, #3b82f6);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 0.5rem;
+}
+
+.InviteModal_submitBtn__PXk8y:hover:not(:disabled) {
+    background-color: #2563eb;
+}
+
+.InviteModal_submitBtn__PXk8y:disabled {
+    background-color: #475569;
+    cursor: not-allowed;
+    opacity: 0.7;
+}

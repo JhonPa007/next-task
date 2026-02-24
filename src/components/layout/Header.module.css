@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--border-color, #e0e0e0);
+    background: var(--background);
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--foreground);
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.inviteBtn {
+    background: var(--primary, #3b82f6);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm, 6px);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.2s;
+}
+
+.inviteBtn:hover {
+    background: #2563eb;
+}
+
+.btnText {
+    display: inline-block;
+}
+
+.btnIcon {
+    background: transparent;
+    border: 1px solid var(--border-color, #e0e0e0);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    color: var(--foreground);
+}
+
+.btnIcon:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+    .btnIcon:hover {
+        background: rgba(255, 255, 255, 0.05);
+    }
+}

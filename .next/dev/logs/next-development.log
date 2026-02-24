@@ -1,0 +1,682 @@
+[00:00:05.543] Server  LOG      ✓ (pwa) "Compiling for server..."
+[00:00:05.548] Server  LOG      ✓ (pwa) "Compiling for server..."
+[00:00:05.551] Server  LOG      ✓ (pwa) "Compiling for client (static)..."
+[00:00:05.559] Server  LOG      ○ (pwa) "Service worker: D:\\aplicaciones-ia\\next-task\\public\\sw.js"
+[00:00:05.559] Server  LOG      ○ (pwa) "  URL: /sw.js"
+[00:00:05.560] Server  LOG      ○ (pwa) "  Scope: /"
+[00:00:05.562] Server  LOG      ○ (pwa) "Building in development mode, caching and precaching are disabled for the most part. This means that offline support is disabled, but you can continue developing other functions in service worker."
+[00:00:07.553] Server  LOG     ✓ Ready in 7s
+[00:00:10.720] Server  LOG     ○ Compiling / ...
+[00:00:20.561] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:53.388] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[00:12:53.467] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findUnique()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[00:12:53.972] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findUnique()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[00:17:19.744] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:04.742] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:18:04.742] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:22:40.186] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:22:40.186] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:24:50.871] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:24:50.872] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:37:55.919] Server  WARN    ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:38:11.486] Server  ERROR   ⨯ Error: useTheme must be used within a ThemeProvider
+[00:38:13.007] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:13.989] Browser ERROR   uncaughtError: Error: useTheme must be used within a ThemeProvider
+[00:39:00.022] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:39:08.125] Server  ERROR   ⨯ Error: useTheme must be used within a ThemeProvider
+[00:39:08.634] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:09.005] Browser ERROR   uncaughtError: Error: useTheme must be used within a ThemeProvider
+[00:39:27.967] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:39:36.531] Server  ERROR   ⨯ Error: useTheme must be used within a ThemeProvider
+[00:39:36.912] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:37.984] Browser ERROR   uncaughtError: Error: useTheme must be used within a ThemeProvider
+[00:40:31.241] Server  ERROR   ⨯ Error: useTheme must be used within a ThemeProvider
+[00:40:31.818] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:32.986] Browser ERROR   uncaughtError: Error: useTheme must be used within a ThemeProvider
+[00:40:58.507] Server  ERROR   ⨯ Error: useTheme must be used within a ThemeProvider
+[00:40:59.424] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:59.982] Browser ERROR   uncaughtError: Error: useTheme must be used within a ThemeProvider
+[00:44:57.522] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:45:08.955] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:21.285] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:03.682] Server  ERROR   ⨯ ./src/components/goals/GoalList.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:324:1]
+ 321 │                         ))}
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+     ·                      ▲
+ 325 │                 )}
+ 326 │                 </div>
+ 326 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+     ╰────
+  × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:325:1]
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+     ·                  ▲
+ 326 │                 </div>
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 327 │             {healthModalGoal && (
+     ╰────
+  × Expected '</', got 'ident'
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:326:1]
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+ 326 │                 </div>
+     ·                   ───
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 328 │             {healthModalGoal && (
+ 328 │                 <OKRHealthDetail
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/goals/GoalList.tsx
+./src/app/workspace/[id]/page.tsx
+[00:54:03.795] Server  LOG      ✓ (pwa) "Compiling for client (static)..."
+[00:54:03.803] Server  LOG      ○ (pwa) "Service worker: D:\\aplicaciones-ia\\next-task\\public\\sw.js"
+[00:54:03.804] Server  LOG      ○ (pwa) "  URL: /sw.js"
+[00:54:03.804] Server  LOG      ○ (pwa) "  Scope: /"
+[00:54:03.806] Server  LOG      ○ (pwa) "Building in development mode, caching and precaching are disabled for the most part. This means that offline support is disabled, but you can continue developing other functions in service worker."
+[00:54:03.985] Browser ERROR   ./src/components/goals/GoalList.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:324:1]
+ 321 │                         ))}
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+     ·                      ▲
+ 325 │                 )}
+ 326 │                 </div>
+ 326 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+     ╰────
+  × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:325:1]
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+     ·                  ▲
+ 326 │                 </div>
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 327 │             {healthModalGoal && (
+     ╰────
+  × Expected '</', got 'ident'
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:326:1]
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+ 326 │                 </div>
+     ·                   ───
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 328 │             {healthModalGoal && (
+ 328 │                 <OKRHealthDetail
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/goals/GoalList.tsx
+[00:54:03.985] Browser ERROR   ./src/components/goals/GoalList.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:324:1]
+ 321 │                         ))}
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+     ·                      ▲
+ 325 │                 )}
+ 326 │                 </div>
+ 326 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+     ╰────
+  × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:325:1]
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+     ·                  ▲
+ 326 │                 </div>
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 327 │             {healthModalGoal && (
+     ╰────
+  × Expected '</', got 'ident'
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:326:1]
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+ 326 │                 </div>
+     ·                   ───
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 328 │             {healthModalGoal && (
+ 328 │                 <OKRHealthDetail
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/goals/GoalList.tsx
+./src/app/workspace/[id]/page.tsx
+[00:54:13.973] Browser ERROR   ./src/components/goals/GoalList.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:324:1]
+ 321 │                         ))}
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+     ·                      ▲
+ 325 │                 )}
+ 326 │                 </div>
+ 326 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+     ╰────
+  × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:325:1]
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+     ·                  ▲
+ 326 │                 </div>
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 327 │             {healthModalGoal && (
+     ╰────
+  × Expected '</', got 'ident'
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:326:1]
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+ 326 │                 </div>
+     ·                   ───
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 328 │             {healthModalGoal && (
+ 328 │                 <OKRHealthDetail
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/goals/GoalList.tsx
+./src/app/workspace/[id]/page.tsx
+[00:54:14.447] Server  ERROR   ⨯ ./src/components/goals/GoalList.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:324:1]
+ 321 │                         ))}
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+     ·                      ▲
+ 325 │                 )}
+ 326 │                 </div>
+ 326 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+     ╰────
+  × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:325:1]
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+     ·                  ▲
+ 326 │                 </div>
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 327 │             {healthModalGoal && (
+     ╰────
+  × Expected '</', got 'ident'
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:326:1]
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+ 326 │                 </div>
+     ·                   ───
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 328 │             {healthModalGoal && (
+ 328 │                 <OKRHealthDetail
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/goals/GoalList.tsx
+./src/app/workspace/[id]/page.tsx
+[00:54:14.703] Server  LOG     ○ Compiling /_error ...
+[00:54:15.061] Server  WARN    ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:54:16.394] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:324:1]
+ 321 │                         ))}
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+     ·                      ▲
+ 325 │                 )}
+ 326 │                 </div>
+ 326 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+     ╰────
+  × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:325:1]
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+     ·                  ▲
+ 326 │                 </div>
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 327 │             {healthModalGoal && (
+     ╰────
+  × Expected '</', got 'ident'
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:326:1]
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+ 326 │                 </div>
+     ·                   ───
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 328 │             {healthModalGoal && (
+ 328 │                 <OKRHealthDetail
+     ╰────
+
+
+Caused by:
+    Syntax Error
+[00:54:16.985] Browser ERROR   ./src/components/goals/GoalList.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:324:1]
+ 321 │                         ))}
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+     ·                      ▲
+ 325 │                 )}
+ 326 │                 </div>
+ 326 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+     ╰────
+  × Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:325:1]
+ 322 │                     </div>
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+     ·                  ▲
+ 326 │                 </div>
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 327 │             {healthModalGoal && (
+     ╰────
+  × Expected '</', got 'ident'
+     ╭─[D:\aplicaciones-ia\next-task\src\components\goals\GoalList.tsx:326:1]
+ 323 │ 
+ 324 │                     />
+ 325 │                 )}
+ 326 │                 </div>
+     ·                   ───
+ 327 │             {/* Modal fuera del condicional para evitar desmontarlo prematuramente si colapsan con el modal abierto */}
+ 328 │             {healthModalGoal && (
+ 328 │                 <OKRHealthDetail
+     ╰────
+
+Caused by:
+    Syntax Error
+[00:55:05.130] Server  WARN    ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:55:09.289] Server  WARN    ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:55:12.234] Server  WARN    ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:55:17.364] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[00:55:17.419] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findUnique()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[00:55:49.685] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:06.163] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:50.997] Browser ERROR   ./src/components/layout/Sidebar.tsx
+Error:   × Expression expected
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·         ─
+ 63 │     );
+ 64 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·          ────────
+ 63 │     );
+ 64 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/layout/Sidebar.tsx
+./src/components/layout/SidebarLayout.tsx
+[01:08:50.998] Browser ERROR   ./src/components/layout/Sidebar.tsx
+Error:   × Expression expected
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·         ─
+ 63 │     );
+ 64 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·          ────────
+ 63 │     );
+ 64 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/layout/Sidebar.tsx
+./src/components/layout/SidebarLayout.tsx
+[01:08:51.234] Server  ERROR   ⨯ ./src/components/layout/Sidebar.tsx
+Error:   × Expression expected
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·         ─
+ 63 │     );
+ 64 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·          ────────
+ 63 │     );
+ 64 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/layout/Sidebar.tsx
+./src/components/layout/SidebarLayout.tsx
+[01:08:51.981] Browser ERROR   ./src/components/layout/Sidebar.tsx
+Error:   × Expression expected
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·         ─
+ 63 │     );
+ 64 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·          ────────
+ 63 │     );
+ 64 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/layout/Sidebar.tsx
+./src/components/layout/SidebarLayout.tsx
+[01:08:51.981] Browser ERROR   ./src/components/layout/Sidebar.tsx
+Error:   × Expression expected
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·         ─
+ 63 │     );
+ 64 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·          ────────
+ 63 │     );
+ 64 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/layout/Sidebar.tsx
+./src/components/layout/SidebarLayout.tsx
+[01:08:52.609] Server  ERROR   ⨯ ./src/components/layout/Sidebar.tsx
+Error:   × Expression expected
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·         ─
+ 63 │     );
+ 64 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·          ────────
+ 63 │     );
+ 64 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/layout/Sidebar.tsx
+./src/components/layout/SidebarLayout.tsx
+[01:08:52.685] Browser ERROR   ./src/components/layout/Sidebar.tsx
+Error:   × Expression expected
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·         ─
+ 63 │     );
+ 64 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·          ────────
+ 63 │     );
+ 64 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/layout/Sidebar.tsx
+./src/components/layout/SidebarLayout.tsx
+[01:08:53.727] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Expression expected
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·         ─
+ 63 │     );
+ 64 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·          ────────
+ 63 │     );
+ 64 │ }
+    ╰────
+
+
+Caused by:
+    Syntax Error
+[01:08:53.974] Browser ERROR   ./src/components/layout/Sidebar.tsx
+Error:   × Expression expected
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·         ─
+ 63 │     );
+ 64 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·          ────────
+ 63 │     );
+ 64 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+[01:08:54.269] Server  LOG     ○ Compiling /_error ...
+[01:09:13.991] Browser ERROR   ./src/components/layout/Sidebar.tsx
+Error:   × Expression expected
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·         ─
+ 63 │     );
+ 64 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[D:\aplicaciones-ia\next-task\src\components\layout\Sidebar.tsx:62:1]
+ 59 │                 <PushSubscriber />
+ 60 │             </div>
+ 61 │         </div>
+ 62 │         </aside >
+    ·          ────────
+ 63 │     );
+ 64 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/layout/Sidebar.tsx
+./src/components/layout/SidebarLayout.tsx
+[01:09:19.643] Server  WARN    ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:09:33.074] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:28.297] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:39:58.878] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[01:39:59.018] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findUnique()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[01:40:01.405] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:01.991] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findUnique()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[02:05:30.957] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

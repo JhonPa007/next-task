@@ -1,0 +1,79 @@
+:root,
+[data-theme='light'] {
+  --background: #ffffff;
+  /* Blanco puro MONDAY */
+  --foreground: #323338;
+  /* Gris oscuro MONDAY */
+  --sidebar-bg: #f5f6f8;
+  /* Gris súper clarito MONDAY */
+  --card-bg: #ffffff;
+  --border-color: #d0d4e4;
+  /* Borde tenue MONDAY */
+
+  /* Primary Colors - Premium Blue */
+  --primary: #0073ea;
+  /* Monday Blue */
+  --primary-hover: #0060b9;
+  --primary-light: #cce5ff;
+
+  /* Status Colors (From Monday.com exactly) */
+  --status-ready: #00c875;
+  /* Done - Verde */
+  --status-working: #fdab3d;
+  /* Working on it - Naranja */
+  --status-stuck: #e2445c;
+  /* Stuck - Rojo */
+  --status-default: #c4c4c4;
+  /* Default - Gris */
+  --status-blue: #579bfc;
+  /* Info / Pending */
+  --status-purple: #a25ddc;
+  /* Epic / Special */
+  --status-highlight: #ffcb00;
+  /* High priority */
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+
+  /* Layout */
+  --sidebar-width: 250px;
+  --header-height: 60px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme='dark'] {
+  --background: #181d2a;
+  --foreground: #f8f9fa;
+  --sidebar-bg: #11151e;
+  --card-bg: #222938;
+  --border-color: #2b3344;
+  --primary: #4361ee;
+  --primary-hover: #3a0ca3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

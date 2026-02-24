@@ -1,0 +1,261 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.headerRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnPrimary {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btnPrimary:hover {
+    background-color: var(--primary-hover);
+}
+
+.createCard {
+    background-color: var(--card-bg, #fff);
+    padding: 1rem;
+    border: 1px solid var(--border-color, #e0e0e0);
+    border-radius: var(--radius-sm);
+    display: flex;
+    gap: 1rem;
+}
+
+.input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color, #e0e0e0);
+    border-radius: var(--radius-sm);
+    font-family: inherit;
+}
+
+.btnSave {
+    background-color: var(--status-ready);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.goalGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1rem;
+}
+
+.goalCard {
+    background-color: var(--card-bg, #fff);
+    border: 1px solid var(--border-color, #e0e0e0);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.goalTitleRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.goalTitleRow h4 {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.goalTitleSection {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.goalActions {
+    display: none;
+    gap: 0.25rem;
+}
+
+.goalTitleSection:hover .goalActions {
+    display: flex;
+}
+
+.goalActions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    padding: 2px 4px;
+    border-radius: 4px;
+    opacity: 0.7;
+}
+
+.goalActions button:hover {
+    background-color: var(--border-color);
+    opacity: 1;
+}
+
+.badge {
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.healthBadge {
+    background-color: var(--surface);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 4px 8px;
+    border-radius: 16px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s;
+}
+
+.healthBadge:hover {
+    background-color: var(--primary);
+    color: white;
+    transform: translateY(-1px);
+}
+
+.keyResults {
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+}
+
+.krLabel {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: gray;
+}
+
+.emptyKr {
+    font-size: 0.85rem;
+    color: #aaa;
+    font-style: italic;
+}
+
+.krList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.krListItem {
+    margin-bottom: 0.5rem;
+}
+
+/* KR Display and Actions */
+.krItemDisplay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 0;
+    border-radius: 4px;
+}
+
+.krProgressContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.krNumbers {
+    font-size: 0.9rem;
+}
+
+.krActions {
+    display: none;
+    gap: 0.2rem;
+}
+
+.krItemDisplay:hover .krActions {
+    display: flex;
+}
+
+.krActions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 2px 4px;
+    opacity: 0.6;
+}
+
+.krActions button:hover {
+    opacity: 1;
+    background-color: var(--border-color);
+    border-radius: 4px;
+}
+
+/* KR Forms */
+.krEditForm {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.krEditForm input {
+    font-size: 0.85rem;
+    padding: 4px;
+}
+
+.btnSecondary {
+    background: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btnSecondary:hover {
+    background: var(--primary);
+    color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    .krEditForm {
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+}
+
+.krList li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 0.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    .keyResults {
+        background-color: rgba(255, 255, 255, 0.02);
+    }
+}

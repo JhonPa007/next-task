@@ -1,0 +1,183 @@
+.boardContainer {
+    padding: 1rem 2rem;
+    background-color: #1a1e2d;
+    /* From reference image */
+    min-height: 50vh;
+    border-radius: var(--radius-md);
+    margin: 0 2rem 2rem 2rem;
+    color: #fff;
+}
+
+.boardTitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.boardScroll {
+    overflow-x: auto;
+    padding-bottom: 1rem;
+}
+
+.columnsWrapper {
+    display: flex;
+    gap: 1.5rem;
+    min-width: max-content;
+}
+
+.column {
+    width: 280px;
+    /* Slightly wider cards for Kanban */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: var(--radius-md);
+    transition: background-color 0.2s ease;
+    padding-bottom: 2rem;
+    /* Buffer zone for dropping at the bottom */
+}
+
+.column.dragOver {
+    background-color: rgba(255, 255, 255, 0.05);
+    /* Highlight area */
+}
+
+.columnHeader {
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+}
+
+.columnBody {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.card {
+    background: white;
+    color: #333;
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    cursor: grab;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s;
+    border: 1px solid transparent;
+}
+
+.card.dragging {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.priorityBadge {
+    font-size: 0.75rem;
+}
+
+.assigneeAvatar {
+    width: 24px;
+    height: 24px;
+    background-color: var(--primary, #3b82f6);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.cardTitle {
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.4;
+    word-break: break-word;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.25rem;
+}
+
+.subtaskBadge {
+    font-size: 0.75rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 2px 6px;
+    border-radius: 12px;
+}
+
+.comments {
+    font-size: 0.75rem;
+    color: #888;
+}
+
+.cardActions {
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.card:hover .cardActions {
+    opacity: 1;
+}
+
+.iconBtn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
+
+.iconBtn:hover {
+    opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+    .boardContainer {
+        background-color: transparent;
+        /* Changed from fixed dark blue to fit overall theme */
+    }
+
+    .card {
+        background: var(--background);
+        color: var(--text-color);
+        border: 1px solid var(--border-color);
+    }
+
+    .card:hover {
+        border-color: var(--text-muted);
+    }
+
+    .subtaskBadge {
+        color: var(--text-muted);
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+}

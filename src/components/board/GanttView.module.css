@@ -1,0 +1,142 @@
+.ganttContainer {
+    background-color: var(--background);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.ganttScrollable {
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.ganttHeader {
+    display: flex;
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 0.5rem;
+    position: sticky;
+    top: 0;
+    background: var(--background);
+    z-index: 10;
+}
+
+.taskLabelHeader {
+    width: 250px;
+    min-width: 250px;
+    padding: 0.5rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    position: sticky;
+    left: 0;
+    background: var(--background);
+    z-index: 11;
+    /* Above other headers */
+    border-right: 1px solid var(--border-color);
+}
+
+.timelineHeader {
+    display: flex;
+}
+
+.dayHeader {
+    width: 40px;
+    min-width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    border-right: 1px dashed rgba(255, 255, 255, 0.05);
+    color: #888;
+}
+
+.todayHeader {
+    color: var(--primary);
+    background-color: rgba(59, 130, 246, 0.05);
+    font-weight: bold;
+}
+
+.ganttBody {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.ganttRow {
+    display: flex;
+    align-items: center;
+}
+
+.taskLabel {
+    width: 250px;
+    min-width: 250px;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: sticky;
+    left: 0;
+    background: var(--background);
+    z-index: 5;
+    border-right: 1px solid var(--border-color);
+}
+
+.timelineRow {
+    position: relative;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.ganttBar {
+    position: absolute;
+    height: 24px;
+    border-radius: 4px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.5rem;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.ganttBar:hover {
+    filter: brightness(1.2);
+}
+
+.barProgressText {
+    opacity: 0.8;
+}
+
+.todayLine {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--primary);
+    opacity: 0.3;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Custom Scrollbar */
+.ganttScrollable::-webkit-scrollbar {
+    height: 8px;
+}
+
+.ganttScrollable::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}

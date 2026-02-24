@@ -1,0 +1,11 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/chat/route": "/api/chat",
+  "/api/cron/nagging/route": "/api/cron/nagging",
+  "/api/cron/reminders/route": "/api/cron/reminders",
+  "/my-tasks/page": "/my-tasks",
+  "/page": "/",
+  "/reports/page": "/reports",
+  "/workspace/[id]/page": "/workspace/[id]"
+}
