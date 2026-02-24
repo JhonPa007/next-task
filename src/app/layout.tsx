@@ -10,6 +10,8 @@ export const metadata: Metadata = {
     description: "Plataforma integral de gestión de proyectos y workspaces.",
 };
 
+export const dynamic = 'force-dynamic';
+
 export default async function RootLayout({
     children,
 }: Readonly<{
