@@ -62,6 +62,5 @@ export const authOptions: NextAuthOptions = {
     },
     pages: {
         signIn: '/login', // Redirigir aquí cuando se requiera auth
-    },
-    trustHost: true, // Importante para despliegues fuera de Vercel (como Railway)
+    }
 };
