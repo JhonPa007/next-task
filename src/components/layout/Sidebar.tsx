@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useSession, signOut } from 'next-auth/react';
 import styles from './Sidebar.module.css';
 import WorkspaceListClient from './WorkspaceListClient';
 import PushSubscriber from '@/components/notifications/PushSubscriber';
@@ -16,6 +17,7 @@ interface SidebarProps {
 
 export default function Sidebar({ initialWorkspaces = [], isCollapsed = false, isMobile = false, onToggle }: SidebarProps) {
     const pathname = usePathname();
+    const { data: session } = useSession();
 
     return (
         <aside className={`${styles.sidebar} ${isCollapsed ? styles.collapsed : ''} ${isMobile ? styles.mobile : ''}`}>
@@ -57,6 +59,23 @@ export default function Sidebar({ initialWorkspaces = [], isCollapsed = false, i
                 </nav>
                 <WorkspaceListClient initialWorkspaces={initialWorkspaces} />
                 <PushSubscriber />
+
+                {/* User Profile & Logout */}
+                <div className={styles.userSection}>
+                    {!isCollapsed && session?.user && (
+                        <div className={styles.userInfo}>
+                            <div className={styles.avatar}>{session.user.name?.charAt(0).toUpperCase()}</div>
+                            <span className={styles.userName}>{session.user.name}</span>
+                        </div>
+                    )}
+                    <button
+                        className={`${styles.logoutBtn} ${isCollapsed ? styles.logoutBtnCollapsed : ''}`}
+                        onClick={() => signOut({ callbackUrl: '/login' })}
+                        title="Cerrar Sessión"
+                    >
+                        ⎋ {isCollapsed ? '' : 'Salir'}
+                    </button>
+                </div>
             </div>
         </aside>
     );

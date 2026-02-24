@@ -149,3 +149,68 @@
         background-color: rgba(255, 255, 255, 0.05);
     }
 }
+
+/* User Profile & Logout */
+.userSection {
+    margin-top: auto;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--border-color);
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    overflow: hidden;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+.userName {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--foreground);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.logoutBtn {
+    background: transparent;
+    border: none;
+    color: var(--status-stuck);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.logoutBtn:hover {
+    background-color: rgba(226, 68, 92, 0.1);
+}
+
+.logoutBtnCollapsed {
+    margin: 0 auto;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}

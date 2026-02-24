@@ -680,3 +680,1092 @@ Can't reach database server at `metro.proxy.rlwy.net:42908`
 
 Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
 [02:05:30.957] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:05:52.579] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:05:52.696] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:05:53.813] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:05:54.975] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:05:57.914] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:05:57.973] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:06:03.061] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:06:03.105] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:06:39.013] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:06:39.081] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:06:44.235] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:06:44.300] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:06:45.561] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:06:46.055] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:14:22.398] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:14:22.458] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:14:23.532] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:14:23.983] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:14:27.611] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:14:27.677] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:14:32.760] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:14:32.818] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:08.615] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:08.772] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:09.827] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:29:10.982] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:13.912] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:13.952] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:14.079] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:14.127] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:27.560] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:27.610] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:32.713] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:32.850] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:35.916] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:29:36.090] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:36.141] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:29:36.979] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:29.546] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:29.591] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:29.696] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:29.738] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:30.096] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:30:30.216] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:30.260] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:30.982] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:58.033] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:58.077] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:58.156] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:58.206] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:58.565] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:30:58.689] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:58.727] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:30:58.969] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:20.030] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:20.074] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:20.153] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:20.195] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:21.317] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:31:21.658] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:21.717] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:21.983] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:48.602] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:48.655] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:48.744] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:48.789] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:49.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:31:49.595] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:49.667] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:31:49.975] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:44:58.303] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:44:58.528] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:44:58.929] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:44:58.991] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:44:59.935] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:45:00.180] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:45:00.227] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[03:45:00.985] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:13:59.478] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:13:59.544] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:14:00.429] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:14:00.973] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:14:05.482] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:14:05.961] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:14:09.498] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:14:09.546] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:14:28.079] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:14:28.130] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:14:33.206] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:14:33.255] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:14:33.649] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:14:33.978] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:14:35.091] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:14:35.139] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:17:56.843] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:17:56.895] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:17:57.764] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:17:57.984] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:18:02.013] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:18:02.062] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:18:03.743] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:18:03.786] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:19:45.214] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:19:45.324] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:19:46.166] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:19:46.981] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:19:50.438] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:19:50.497] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:19:52.131] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:19:52.171] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:17.580] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:17.893] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:18.894] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:33:19.982] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:23.148] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:23.264] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:24.351] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:24.421] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:35.062] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:35.110] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:35.204] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:35.302] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:35.708] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:33:35.834] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:35.892] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:33:36.011] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:46:38.333] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:46:38.583] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:46:39.547] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:46:41.354] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:46:43.910] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:46:43.965] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:46:49.132] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[04:46:49.198] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:00:58.628] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:00:58.717] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:00:59.549] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:00:59.985] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:01:03.919] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:01:04.078] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:01:04.232] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:01:04.420] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:10:26.356] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:10:26.421] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:10:31.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:10:32.978] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:10:33.362] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:10:33.402] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:14:30.279] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:14:30.343] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:14:31.231] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:14:31.972] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:14:35.480] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:14:35.523] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:14:40.615] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:14:40.691] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:27:37.971] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:27:38.106] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:27:38.972] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:27:39.973] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:27:43.270] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:27:43.352] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:27:44.878] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:27:44.925] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:45:18.228] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:45:18.299] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:45:18.478] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:45:18.967] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:45:22.422] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:45:22.762] Server  ERROR   ⨯ PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:45:22.805] Server  ERROR   Error fetching workspaces: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.findMany()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[05:45:22.974] Browser ERROR   uncaughtError: PrismaClientKnownRequestError: 
+Invalid `prisma.workspace.count()` invocation:
+
+
+Can't reach database server at `metro.proxy.rlwy.net:42908`
+
+Please make sure your database server is running at `metro.proxy.rlwy.net:42908`.
+[08:10:22.387] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[08:28:18.811] Server  WARN    [next-auth][warn][NEXTAUTH_URL] "\nhttps://next-auth.js.org/warnings#nextauth_url"
+[08:28:23.993] Server  LOG     ○ Compiling /api/auth/[...nextauth] ...
+[08:28:37.474] Server  WARN    [next-auth][warn][NEXTAUTH_URL] "\nhttps://next-auth.js.org/warnings#nextauth_url"
+[08:29:35.809] Server  WARN    [next-auth][warn][NEXTAUTH_URL] "\nhttps://next-auth.js.org/warnings#nextauth_url"
+[08:29:52.695] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[08:31:39.070] Server  LOG     ○ Compiling middleware ...
+[08:31:54.912] Server  ERROR   [next-auth][error][NO_SECRET] 
+https://next-auth.js.org/errors#no_secret
+[08:31:58.536] Server  LOG     ○ Compiling /api/auth/[...nextauth] ...
+[08:32:05.747] Server  WARN    [next-auth][warn][NEXTAUTH_URL] "\nhttps://next-auth.js.org/warnings#nextauth_url"
+[08:32:09.354] Server  ERROR   [next-auth][error][NO_SECRET] 
+https://next-auth.js.org/errors#no_secret
+[08:33:34.443] Server  ERROR   [next-auth][error][NO_SECRET] 
+https://next-auth.js.org/errors#no_secret
+[08:33:36.797] Server  ERROR   [next-auth][error][NO_SECRET] 
+https://next-auth.js.org/errors#no_secret

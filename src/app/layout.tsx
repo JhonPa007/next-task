@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import SidebarLayout from "@/components/layout/SidebarLayout";
 import FloatingChatbot from "@/components/ai/FloatingChatbot";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
+import AuthProvider from "@/components/auth/AuthProvider";
 import { getWorkspaces } from '@/app/actions/workspace';
 import "./globals.css";
 
@@ -28,10 +29,12 @@ export default async function RootLayout({
         <html lang="es" suppressHydrationWarning>
             <body suppressHydrationWarning>
                 <ThemeProvider>
-                    <SidebarLayout initialWorkspaces={workspaces}>
-                        {children}
-                    </SidebarLayout>
-                    <FloatingChatbot />
+                    <AuthProvider>
+                        <SidebarLayout initialWorkspaces={workspaces}>
+                            {children}
+                        </SidebarLayout>
+                        <FloatingChatbot />
+                    </AuthProvider>
                 </ThemeProvider>
             </body>
         </html>
