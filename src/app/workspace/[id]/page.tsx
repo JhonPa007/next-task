@@ -30,11 +30,11 @@ export default async function WorkspacePage({ params }: { params: Promise<{ id: 
         <main style={{ display: 'flex', flexDirection: 'column', flex: 1, backgroundColor: 'var(--background)' }}>
             <Header title={`Espacio: ${workspace.name}`} />
 
-            <div style={{ padding: '2rem' }}>
+            <div style={{ padding: '1rem' }}>
                 <GoalList workspaceId={workspace.id} initialGoals={goals} />
             </div>
 
-            <div style={{ padding: '0 2rem' }}>
+            <div style={{ padding: '0 1rem' }}>
                 <KudosWidget
                     workspaceId={workspace.id}
                     initialKudos={kudos as any}
@@ -42,8 +42,8 @@ export default async function WorkspacePage({ params }: { params: Promise<{ id: 
                 />
             </div>
 
-            <div style={{ padding: '0 2rem 2rem 2rem', flex: 1 }}>
-                <h2 style={{ marginBottom: '1rem', color: 'var(--foreground)' }}>Gestión de Tareas</h2>
+            <div style={{ padding: '0 1rem 1rem 1rem', flex: 1 }}>
+                <h2 style={{ marginBottom: '1rem', color: 'var(--foreground)', fontSize: '1.2rem' }}>Gestión de Tareas</h2>
                 <TaskManager initialTasks={tasks} workspaceId={workspace.id} members={members} />
             </div>
         </main>

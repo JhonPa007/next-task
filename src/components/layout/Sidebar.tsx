@@ -21,7 +21,6 @@ export default function Sidebar({ initialWorkspaces = [], isCollapsed = false, i
 
     return (
         <aside className={`${styles.sidebar} ${isCollapsed ? styles.collapsed : ''} ${isMobile ? styles.mobile : ''}`}>
-
             {/* Collapse Toggle Button */}
             {onToggle && (
                 <button
@@ -29,7 +28,7 @@ export default function Sidebar({ initialWorkspaces = [], isCollapsed = false, i
                     onClick={onToggle}
                     title={isCollapsed ? "Mostrar Menú" : "Ocultar Menú"}
                 >
-                    {isCollapsed ? '➡' : '⬅'}
+                    {isCollapsed ? '》' : '《'}
                 </button>
             )}
 

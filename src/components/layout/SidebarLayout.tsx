@@ -61,16 +61,6 @@ export default function SidebarLayout({ children, initialWorkspaces }: SidebarLa
             <div
                 className={`${styles.mainContent} ${isCollapsed ? styles.contentCollapsed : ''} ${isMobile ? styles.contentMobile : ''}`}
             >
-                {/* Mobile Hamburger (Only visible when totally collapsed on mobile) */}
-                {isMounted && isMobile && isCollapsed && (
-                    <button
-                        className={styles.mobileToggleBtn}
-                        onClick={toggleSidebar}
-                        title="Abrir Menú"
-                    >
-                        ☰
-                    </button>
-                )}
                 {children}
             </div>
         </div>

@@ -130,3 +130,24 @@
     background-color: gray;
     cursor: not-allowed;
 }
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .chatbotWrapper {
+        right: auto;
+        left: 20px;
+        bottom: 20px;
+        align-items: flex-start;
+    }
+
+    .fabBtn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .chatWindow {
+        width: calc(100vw - 40px);
+        height: 70vh;
+        max-height: 400px;
+    }
+}

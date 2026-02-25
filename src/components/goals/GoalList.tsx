@@ -180,7 +180,8 @@ export default function GoalList({ workspaceId, initialGoals }: GoalListProps) {
                     cursor: 'pointer',
                     display: 'flex',
                     alignItems: 'center',
-                    userSelect: 'none'
+                    userSelect: 'none',
+                    fontSize: '1.2rem'
                 }}
             >
                 <span style={{

@@ -66,11 +66,11 @@ export default function KudosWidget({ workspaceId, initialKudos, members }: { wo
     };
 
     return (
-        <div style={{ marginBottom: '2rem', backgroundColor: 'var(--surface)', padding: '1.5rem', borderRadius: 'var(--radius-md)', border: '1px solid #ffdb58' }}>
+        <div style={{ marginBottom: '1rem', backgroundColor: 'var(--surface)', padding: '1rem', borderRadius: 'var(--radius-md)', border: '1px solid #ffdb58' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: isExpanded ? '1rem' : '0' }}>
                 <h2
                     onClick={() => setIsExpanded(!isExpanded)}
-                    style={{ fontSize: '1.25rem', color: '#ffd700', display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer', userSelect: 'none' }}
+                    style={{ fontSize: '1.2rem', color: '#ffd700', display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer', userSelect: 'none' }}
                 >
                     <span style={{
                         transform: isExpanded ? 'rotate(0deg)' : 'rotate(-90deg)',
