@@ -1,0 +1,200 @@
+{
+  "node": {
+    "4057b6b122a1d227d93b4421561d1064d3daa794c6": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "createWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "rsc"
+      },
+      "exportedName": "createWorkspace",
+      "filename": "src/app/actions/workspace.ts"
+    },
+    "60aaccbf2e1157c6c321521724da79b6083afd2a63": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "updateWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "rsc"
+      },
+      "exportedName": "updateWorkspace",
+      "filename": "src/app/actions/workspace.ts"
+    },
+    "4079e265df772b313e9fb1f8ed53ccc6c2f1755d2f": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "deleteWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "rsc"
+      },
+      "exportedName": "deleteWorkspace",
+      "filename": "src/app/actions/workspace.ts"
+    },
+    "405e0d830509c8d72682aaa3f5bf299d1a2d884845": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "savePushSubscription",
+          "filename": "src/app/actions/notifications.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "action-browser"
+      },
+      "exportedName": "savePushSubscription",
+      "filename": "src/app/actions/notifications.ts"
+    },
+    "40f7eb3235ad61d3222f3a251f463480ee8dcc84e3": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "getOrCreateChatSession",
+          "filename": "src/app/actions/chat.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "action-browser"
+      },
+      "exportedName": "getOrCreateChatSession",
+      "filename": "src/app/actions/chat.ts"
+    },
+    "40723cc56224262f28b87c25b6b494ea62369a007e": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "getChatHistory",
+          "filename": "src/app/actions/chat.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "action-browser"
+      },
+      "exportedName": "getChatHistory",
+      "filename": "src/app/actions/chat.ts"
+    },
+    "40897aa8b4c0ae0f8aadab3d0c9582d0f8de82be30": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "clearChatHistory",
+          "filename": "src/app/actions/chat.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "action-browser"
+      },
+      "exportedName": "clearChatHistory",
+      "filename": "src/app/actions/chat.ts"
+    },
+    "007df99478876faf1be0a9287652a497a9c330c5be": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "getWorkspaces",
+          "filename": "src/app/actions/workspace.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "rsc"
+      },
+      "exportedName": "getWorkspaces",
+      "filename": "src/app/actions/workspace.ts"
+    },
+    "40211ca8d3d05ab60a741dbbfd1c44d01ba208ee63": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "joinWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "rsc"
+      },
+      "exportedName": "joinWorkspace",
+      "filename": "src/app/actions/workspace.ts"
+    },
+    "40808c801d7bd5372c066b27d49f0dbf04a5e56f80": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "getWorkspaceMembers",
+          "filename": "src/app/actions/workspace.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "rsc"
+      },
+      "exportedName": "getWorkspaceMembers",
+      "filename": "src/app/actions/workspace.ts"
+    },
+    "6096ab7f90edfbad42d79925c9b912f741ade35bd0": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "inviteUserToWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "rsc"
+      },
+      "exportedName": "inviteUserToWorkspace",
+      "filename": "src/app/actions/workspace.ts"
+    },
+    "00c5ec6a839333a2e817476cb0fa4602de37ccb213": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "getCurrentUser",
+          "filename": "src/app/actions/user.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "rsc"
+      },
+      "exportedName": "getCurrentUser",
+      "filename": "src/app/actions/user.ts"
+    },
+    "70169935428d39f6a5198b3c84e3b133703d9dd938": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "src/app/actions/user.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "action-browser"
+      },
+      "exportedName": "registerUser",
+      "filename": "src/app/actions/user.ts"
+    }
+  },
+  "edge": {}
+}

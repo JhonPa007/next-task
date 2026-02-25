@@ -8,6 +8,18 @@
           "exportedName": "createWorkspace",
           "filename": "src/app/actions/workspace.ts"
         },
+        "app/invite/[id]/page": {
+          "moduleId": 5431,
+          "async": false,
+          "exportedName": "createWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/login/page": {
+          "moduleId": 31186,
+          "async": false,
+          "exportedName": "createWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
         "app/my-tasks/page": {
           "moduleId": 16181,
           "async": false,
@@ -16,6 +28,12 @@
         },
         "app/page": {
           "moduleId": 31350,
+          "async": false,
+          "exportedName": "createWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/register/page": {
+          "moduleId": 59406,
           "async": false,
           "exportedName": "createWorkspace",
           "filename": "src/app/actions/workspace.ts"
@@ -35,8 +53,11 @@
       },
       "layer": {
         "app/_not-found/page": "rsc",
+        "app/invite/[id]/page": "rsc",
+        "app/login/page": "rsc",
         "app/my-tasks/page": "rsc",
         "app/page": "rsc",
+        "app/register/page": "rsc",
         "app/reports/page": "rsc",
         "app/workspace/[id]/page": "rsc"
       },
@@ -51,6 +72,18 @@
           "exportedName": "updateWorkspace",
           "filename": "src/app/actions/workspace.ts"
         },
+        "app/invite/[id]/page": {
+          "moduleId": 5431,
+          "async": false,
+          "exportedName": "updateWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/login/page": {
+          "moduleId": 31186,
+          "async": false,
+          "exportedName": "updateWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
         "app/my-tasks/page": {
           "moduleId": 16181,
           "async": false,
@@ -59,6 +92,12 @@
         },
         "app/page": {
           "moduleId": 31350,
+          "async": false,
+          "exportedName": "updateWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/register/page": {
+          "moduleId": 59406,
           "async": false,
           "exportedName": "updateWorkspace",
           "filename": "src/app/actions/workspace.ts"
@@ -78,8 +117,11 @@
       },
       "layer": {
         "app/_not-found/page": "rsc",
+        "app/invite/[id]/page": "rsc",
+        "app/login/page": "rsc",
         "app/my-tasks/page": "rsc",
         "app/page": "rsc",
+        "app/register/page": "rsc",
         "app/reports/page": "rsc",
         "app/workspace/[id]/page": "rsc"
       },
@@ -94,6 +136,18 @@
           "exportedName": "deleteWorkspace",
           "filename": "src/app/actions/workspace.ts"
         },
+        "app/invite/[id]/page": {
+          "moduleId": 5431,
+          "async": false,
+          "exportedName": "deleteWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/login/page": {
+          "moduleId": 31186,
+          "async": false,
+          "exportedName": "deleteWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
         "app/my-tasks/page": {
           "moduleId": 16181,
           "async": false,
@@ -102,6 +156,12 @@
         },
         "app/page": {
           "moduleId": 31350,
+          "async": false,
+          "exportedName": "deleteWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/register/page": {
+          "moduleId": 59406,
           "async": false,
           "exportedName": "deleteWorkspace",
           "filename": "src/app/actions/workspace.ts"
@@ -121,8 +181,11 @@
       },
       "layer": {
         "app/_not-found/page": "rsc",
+        "app/invite/[id]/page": "rsc",
+        "app/login/page": "rsc",
         "app/my-tasks/page": "rsc",
         "app/page": "rsc",
+        "app/register/page": "rsc",
         "app/reports/page": "rsc",
         "app/workspace/[id]/page": "rsc"
       },
@@ -137,6 +200,18 @@
           "exportedName": "savePushSubscription",
           "filename": "src/app/actions/notifications.ts"
         },
+        "app/invite/[id]/page": {
+          "moduleId": 5431,
+          "async": false,
+          "exportedName": "savePushSubscription",
+          "filename": "src/app/actions/notifications.ts"
+        },
+        "app/login/page": {
+          "moduleId": 31186,
+          "async": false,
+          "exportedName": "savePushSubscription",
+          "filename": "src/app/actions/notifications.ts"
+        },
         "app/my-tasks/page": {
           "moduleId": 16181,
           "async": false,
@@ -145,6 +220,12 @@
         },
         "app/page": {
           "moduleId": 31350,
+          "async": false,
+          "exportedName": "savePushSubscription",
+          "filename": "src/app/actions/notifications.ts"
+        },
+        "app/register/page": {
+          "moduleId": 59406,
           "async": false,
           "exportedName": "savePushSubscription",
           "filename": "src/app/actions/notifications.ts"
@@ -164,8 +245,11 @@
       },
       "layer": {
         "app/_not-found/page": "action-browser",
+        "app/invite/[id]/page": "action-browser",
+        "app/login/page": "action-browser",
         "app/my-tasks/page": "action-browser",
         "app/page": "action-browser",
+        "app/register/page": "action-browser",
         "app/reports/page": "action-browser",
         "app/workspace/[id]/page": "rsc"
       },
@@ -180,6 +264,18 @@
           "exportedName": "getOrCreateChatSession",
           "filename": "src/app/actions/chat.ts"
         },
+        "app/invite/[id]/page": {
+          "moduleId": 5431,
+          "async": false,
+          "exportedName": "getOrCreateChatSession",
+          "filename": "src/app/actions/chat.ts"
+        },
+        "app/login/page": {
+          "moduleId": 31186,
+          "async": false,
+          "exportedName": "getOrCreateChatSession",
+          "filename": "src/app/actions/chat.ts"
+        },
         "app/my-tasks/page": {
           "moduleId": 16181,
           "async": false,
@@ -188,6 +284,12 @@
         },
         "app/page": {
           "moduleId": 31350,
+          "async": false,
+          "exportedName": "getOrCreateChatSession",
+          "filename": "src/app/actions/chat.ts"
+        },
+        "app/register/page": {
+          "moduleId": 59406,
           "async": false,
           "exportedName": "getOrCreateChatSession",
           "filename": "src/app/actions/chat.ts"
@@ -207,8 +309,11 @@
       },
       "layer": {
         "app/_not-found/page": "action-browser",
+        "app/invite/[id]/page": "action-browser",
+        "app/login/page": "action-browser",
         "app/my-tasks/page": "action-browser",
         "app/page": "action-browser",
+        "app/register/page": "action-browser",
         "app/reports/page": "action-browser",
         "app/workspace/[id]/page": "action-browser"
       },
@@ -223,6 +328,18 @@
           "exportedName": "getChatHistory",
           "filename": "src/app/actions/chat.ts"
         },
+        "app/invite/[id]/page": {
+          "moduleId": 5431,
+          "async": false,
+          "exportedName": "getChatHistory",
+          "filename": "src/app/actions/chat.ts"
+        },
+        "app/login/page": {
+          "moduleId": 31186,
+          "async": false,
+          "exportedName": "getChatHistory",
+          "filename": "src/app/actions/chat.ts"
+        },
         "app/my-tasks/page": {
           "moduleId": 16181,
           "async": false,
@@ -231,6 +348,12 @@
         },
         "app/page": {
           "moduleId": 31350,
+          "async": false,
+          "exportedName": "getChatHistory",
+          "filename": "src/app/actions/chat.ts"
+        },
+        "app/register/page": {
+          "moduleId": 59406,
           "async": false,
           "exportedName": "getChatHistory",
           "filename": "src/app/actions/chat.ts"
@@ -250,8 +373,11 @@
       },
       "layer": {
         "app/_not-found/page": "action-browser",
+        "app/invite/[id]/page": "action-browser",
+        "app/login/page": "action-browser",
         "app/my-tasks/page": "action-browser",
         "app/page": "action-browser",
+        "app/register/page": "action-browser",
         "app/reports/page": "action-browser",
         "app/workspace/[id]/page": "action-browser"
       },
@@ -266,6 +392,18 @@
           "exportedName": "clearChatHistory",
           "filename": "src/app/actions/chat.ts"
         },
+        "app/invite/[id]/page": {
+          "moduleId": 5431,
+          "async": false,
+          "exportedName": "clearChatHistory",
+          "filename": "src/app/actions/chat.ts"
+        },
+        "app/login/page": {
+          "moduleId": 31186,
+          "async": false,
+          "exportedName": "clearChatHistory",
+          "filename": "src/app/actions/chat.ts"
+        },
         "app/my-tasks/page": {
           "moduleId": 16181,
           "async": false,
@@ -274,6 +412,12 @@
         },
         "app/page": {
           "moduleId": 31350,
+          "async": false,
+          "exportedName": "clearChatHistory",
+          "filename": "src/app/actions/chat.ts"
+        },
+        "app/register/page": {
+          "moduleId": 59406,
           "async": false,
           "exportedName": "clearChatHistory",
           "filename": "src/app/actions/chat.ts"
@@ -293,8 +437,11 @@
       },
       "layer": {
         "app/_not-found/page": "action-browser",
+        "app/invite/[id]/page": "action-browser",
+        "app/login/page": "action-browser",
         "app/my-tasks/page": "action-browser",
         "app/page": "action-browser",
+        "app/register/page": "action-browser",
         "app/reports/page": "action-browser",
         "app/workspace/[id]/page": "action-browser"
       },
@@ -309,6 +456,18 @@
           "exportedName": "getWorkspaces",
           "filename": "src/app/actions/workspace.ts"
         },
+        "app/invite/[id]/page": {
+          "moduleId": 5431,
+          "async": false,
+          "exportedName": "getWorkspaces",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/login/page": {
+          "moduleId": 31186,
+          "async": false,
+          "exportedName": "getWorkspaces",
+          "filename": "src/app/actions/workspace.ts"
+        },
         "app/my-tasks/page": {
           "moduleId": 16181,
           "async": false,
@@ -317,6 +476,12 @@
         },
         "app/page": {
           "moduleId": 31350,
+          "async": false,
+          "exportedName": "getWorkspaces",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/register/page": {
+          "moduleId": 59406,
           "async": false,
           "exportedName": "getWorkspaces",
           "filename": "src/app/actions/workspace.ts"
@@ -336,13 +501,80 @@
       },
       "layer": {
         "app/_not-found/page": "rsc",
+        "app/invite/[id]/page": "rsc",
+        "app/login/page": "rsc",
         "app/my-tasks/page": "rsc",
         "app/page": "rsc",
+        "app/register/page": "rsc",
         "app/reports/page": "rsc",
         "app/workspace/[id]/page": "rsc"
       },
       "filename": "src/app/actions/workspace.ts",
       "exportedName": "getWorkspaces"
+    },
+    "40211ca8d3d05ab60a741dbbfd1c44d01ba208ee63": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": 21748,
+          "async": false,
+          "exportedName": "joinWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/invite/[id]/page": {
+          "moduleId": 5431,
+          "async": false,
+          "exportedName": "joinWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/login/page": {
+          "moduleId": 31186,
+          "async": false,
+          "exportedName": "joinWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/my-tasks/page": {
+          "moduleId": 16181,
+          "async": false,
+          "exportedName": "joinWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/page": {
+          "moduleId": 31350,
+          "async": false,
+          "exportedName": "joinWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "joinWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/reports/page": {
+          "moduleId": 70241,
+          "async": false,
+          "exportedName": "joinWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/workspace/[id]/page": {
+          "moduleId": 23587,
+          "async": false,
+          "exportedName": "joinWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "rsc",
+        "app/invite/[id]/page": "rsc",
+        "app/login/page": "rsc",
+        "app/my-tasks/page": "rsc",
+        "app/page": "rsc",
+        "app/register/page": "rsc",
+        "app/reports/page": "rsc",
+        "app/workspace/[id]/page": "rsc"
+      },
+      "filename": "src/app/actions/workspace.ts",
+      "exportedName": "joinWorkspace"
     },
     "40808c801d7bd5372c066b27d49f0dbf04a5e56f80": {
       "workers": {
@@ -352,6 +584,18 @@
           "exportedName": "getWorkspaceMembers",
           "filename": "src/app/actions/workspace.ts"
         },
+        "app/invite/[id]/page": {
+          "moduleId": 5431,
+          "async": false,
+          "exportedName": "getWorkspaceMembers",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/login/page": {
+          "moduleId": 31186,
+          "async": false,
+          "exportedName": "getWorkspaceMembers",
+          "filename": "src/app/actions/workspace.ts"
+        },
         "app/my-tasks/page": {
           "moduleId": 16181,
           "async": false,
@@ -360,6 +604,12 @@
         },
         "app/page": {
           "moduleId": 31350,
+          "async": false,
+          "exportedName": "getWorkspaceMembers",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/register/page": {
+          "moduleId": 59406,
           "async": false,
           "exportedName": "getWorkspaceMembers",
           "filename": "src/app/actions/workspace.ts"
@@ -379,8 +629,11 @@
       },
       "layer": {
         "app/_not-found/page": "rsc",
+        "app/invite/[id]/page": "rsc",
+        "app/login/page": "rsc",
         "app/my-tasks/page": "rsc",
         "app/page": "rsc",
+        "app/register/page": "rsc",
         "app/reports/page": "rsc",
         "app/workspace/[id]/page": "rsc"
       },
@@ -395,6 +648,18 @@
           "exportedName": "inviteUserToWorkspace",
           "filename": "src/app/actions/workspace.ts"
         },
+        "app/invite/[id]/page": {
+          "moduleId": 5431,
+          "async": false,
+          "exportedName": "inviteUserToWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/login/page": {
+          "moduleId": 31186,
+          "async": false,
+          "exportedName": "inviteUserToWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
         "app/my-tasks/page": {
           "moduleId": 16181,
           "async": false,
@@ -403,6 +668,12 @@
         },
         "app/page": {
           "moduleId": 31350,
+          "async": false,
+          "exportedName": "inviteUserToWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        },
+        "app/register/page": {
+          "moduleId": 59406,
           "async": false,
           "exportedName": "inviteUserToWorkspace",
           "filename": "src/app/actions/workspace.ts"
@@ -422,10 +693,13 @@
       },
       "layer": {
         "app/_not-found/page": "rsc",
-        "app/my-tasks/page": "action-browser",
-        "app/page": "action-browser",
-        "app/reports/page": "action-browser",
-        "app/workspace/[id]/page": "action-browser"
+        "app/invite/[id]/page": "rsc",
+        "app/login/page": "rsc",
+        "app/my-tasks/page": "rsc",
+        "app/page": "rsc",
+        "app/register/page": "rsc",
+        "app/reports/page": "rsc",
+        "app/workspace/[id]/page": "rsc"
       },
       "filename": "src/app/actions/workspace.ts",
       "exportedName": "inviteUserToWorkspace"
@@ -438,6 +712,18 @@
           "exportedName": "getCurrentUser",
           "filename": "src/app/actions/user.ts"
         },
+        "app/invite/[id]/page": {
+          "moduleId": 5431,
+          "async": false,
+          "exportedName": "getCurrentUser",
+          "filename": "src/app/actions/user.ts"
+        },
+        "app/login/page": {
+          "moduleId": 31186,
+          "async": false,
+          "exportedName": "getCurrentUser",
+          "filename": "src/app/actions/user.ts"
+        },
         "app/my-tasks/page": {
           "moduleId": 16181,
           "async": false,
@@ -446,6 +732,12 @@
         },
         "app/page": {
           "moduleId": 31350,
+          "async": false,
+          "exportedName": "getCurrentUser",
+          "filename": "src/app/actions/user.ts"
+        },
+        "app/register/page": {
+          "moduleId": 59406,
           "async": false,
           "exportedName": "getCurrentUser",
           "filename": "src/app/actions/user.ts"
@@ -465,13 +757,80 @@
       },
       "layer": {
         "app/_not-found/page": "rsc",
+        "app/invite/[id]/page": "rsc",
+        "app/login/page": "rsc",
         "app/my-tasks/page": "rsc",
         "app/page": "rsc",
+        "app/register/page": "rsc",
         "app/reports/page": "rsc",
         "app/workspace/[id]/page": "rsc"
       },
       "filename": "src/app/actions/user.ts",
       "exportedName": "getCurrentUser"
+    },
+    "70169935428d39f6a5198b3c84e3b133703d9dd938": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": 21748,
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "src/app/actions/user.ts"
+        },
+        "app/invite/[id]/page": {
+          "moduleId": 5431,
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "src/app/actions/user.ts"
+        },
+        "app/login/page": {
+          "moduleId": 31186,
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "src/app/actions/user.ts"
+        },
+        "app/my-tasks/page": {
+          "moduleId": 16181,
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "src/app/actions/user.ts"
+        },
+        "app/page": {
+          "moduleId": 31350,
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "src/app/actions/user.ts"
+        },
+        "app/register/page": {
+          "moduleId": 59406,
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "src/app/actions/user.ts"
+        },
+        "app/reports/page": {
+          "moduleId": 70241,
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "src/app/actions/user.ts"
+        },
+        "app/workspace/[id]/page": {
+          "moduleId": 23587,
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "src/app/actions/user.ts"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "rsc",
+        "app/invite/[id]/page": "rsc",
+        "app/login/page": "rsc",
+        "app/my-tasks/page": "rsc",
+        "app/page": "rsc",
+        "app/register/page": "action-browser",
+        "app/reports/page": "rsc",
+        "app/workspace/[id]/page": "rsc"
+      },
+      "filename": "src/app/actions/user.ts",
+      "exportedName": "registerUser"
     },
     "40d388ecb447107cdd327dfa2b146d05cb8e04fce3": {
       "workers": {

@@ -1,11 +1,15 @@
 {
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
   "/api/chat/route": "/api/chat",
   "/api/cron/nagging/route": "/api/cron/nagging",
   "/api/cron/reminders/route": "/api/cron/reminders",
+  "/invite/[id]/page": "/invite/[id]",
+  "/login/page": "/login",
   "/my-tasks/page": "/my-tasks",
   "/page": "/",
+  "/register/page": "/register",
   "/reports/page": "/reports",
   "/workspace/[id]/page": "/workspace/[id]"
 }

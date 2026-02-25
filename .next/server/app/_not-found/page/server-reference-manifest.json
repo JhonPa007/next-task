@@ -120,6 +120,21 @@
       "exportedName": "getWorkspaces",
       "filename": "src/app/actions/workspace.ts"
     },
+    "40211ca8d3d05ab60a741dbbfd1c44d01ba208ee63": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": 21748,
+          "async": false,
+          "exportedName": "joinWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "rsc"
+      },
+      "exportedName": "joinWorkspace",
+      "filename": "src/app/actions/workspace.ts"
+    },
     "40808c801d7bd5372c066b27d49f0dbf04a5e56f80": {
       "workers": {
         "app/_not-found/page": {
@@ -163,6 +178,21 @@
         "app/_not-found/page": "rsc"
       },
       "exportedName": "getCurrentUser",
+      "filename": "src/app/actions/user.ts"
+    },
+    "70169935428d39f6a5198b3c84e3b133703d9dd938": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": 21748,
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "src/app/actions/user.ts"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "rsc"
+      },
+      "exportedName": "registerUser",
       "filename": "src/app/actions/user.ts"
     }
   },

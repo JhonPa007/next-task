@@ -120,6 +120,21 @@
       "exportedName": "getWorkspaces",
       "filename": "src/app/actions/workspace.ts"
     },
+    "40211ca8d3d05ab60a741dbbfd1c44d01ba208ee63": {
+      "workers": {
+        "app/my-tasks/page": {
+          "moduleId": 16181,
+          "async": false,
+          "exportedName": "joinWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        }
+      },
+      "layer": {
+        "app/my-tasks/page": "rsc"
+      },
+      "exportedName": "joinWorkspace",
+      "filename": "src/app/actions/workspace.ts"
+    },
     "40808c801d7bd5372c066b27d49f0dbf04a5e56f80": {
       "workers": {
         "app/my-tasks/page": {
@@ -145,7 +160,7 @@
         }
       },
       "layer": {
-        "app/my-tasks/page": "action-browser"
+        "app/my-tasks/page": "rsc"
       },
       "exportedName": "inviteUserToWorkspace",
       "filename": "src/app/actions/workspace.ts"
@@ -163,6 +178,21 @@
         "app/my-tasks/page": "rsc"
       },
       "exportedName": "getCurrentUser",
+      "filename": "src/app/actions/user.ts"
+    },
+    "70169935428d39f6a5198b3c84e3b133703d9dd938": {
+      "workers": {
+        "app/my-tasks/page": {
+          "moduleId": 16181,
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "src/app/actions/user.ts"
+        }
+      },
+      "layer": {
+        "app/my-tasks/page": "rsc"
+      },
+      "exportedName": "registerUser",
       "filename": "src/app/actions/user.ts"
     },
     "40d388ecb447107cdd327dfa2b146d05cb8e04fce3": {

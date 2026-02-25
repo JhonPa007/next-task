@@ -1,3 +1,0 @@
-module.exports=[25041,a=>{"use strict";var b=a.i(37936),c=a.i(66518);async function d(){try{let a=await c.prisma.user.findFirst();return a||(a=await c.prisma.user.create({data:{email:"admin@nexttask.com",name:"Admin User"}})),a}catch(a){return console.error("Error fetching current user:",a),null}}(0,a.i(13095).ensureServerEntryExports)([d]),(0,b.registerServerReference)(d,"00c5ec6a839333a2e817476cb0fa4602de37ccb213",null),a.s(["getCurrentUser",()=>d])}];
-
-//# sourceMappingURL=src_app_actions_user_ts_423da1fc._.js.map

@@ -120,6 +120,21 @@
       "exportedName": "getWorkspaces",
       "filename": "src/app/actions/workspace.ts"
     },
+    "40211ca8d3d05ab60a741dbbfd1c44d01ba208ee63": {
+      "workers": {
+        "app/workspace/[id]/page": {
+          "moduleId": 23587,
+          "async": false,
+          "exportedName": "joinWorkspace",
+          "filename": "src/app/actions/workspace.ts"
+        }
+      },
+      "layer": {
+        "app/workspace/[id]/page": "rsc"
+      },
+      "exportedName": "joinWorkspace",
+      "filename": "src/app/actions/workspace.ts"
+    },
     "40808c801d7bd5372c066b27d49f0dbf04a5e56f80": {
       "workers": {
         "app/workspace/[id]/page": {
@@ -145,7 +160,7 @@
         }
       },
       "layer": {
-        "app/workspace/[id]/page": "action-browser"
+        "app/workspace/[id]/page": "rsc"
       },
       "exportedName": "inviteUserToWorkspace",
       "filename": "src/app/actions/workspace.ts"
@@ -163,6 +178,21 @@
         "app/workspace/[id]/page": "rsc"
       },
       "exportedName": "getCurrentUser",
+      "filename": "src/app/actions/user.ts"
+    },
+    "70169935428d39f6a5198b3c84e3b133703d9dd938": {
+      "workers": {
+        "app/workspace/[id]/page": {
+          "moduleId": 23587,
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "src/app/actions/user.ts"
+        }
+      },
+      "layer": {
+        "app/workspace/[id]/page": "rsc"
+      },
+      "exportedName": "registerUser",
       "filename": "src/app/actions/user.ts"
     },
     "4097f9de6c40be3eaa287e3437342330730fd77ff3": {

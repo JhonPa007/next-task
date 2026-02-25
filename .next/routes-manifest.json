@@ -22,6 +22,22 @@
   },
   "dynamicRoutes": [
     {
+      "page": "/api/auth/[...nextauth]",
+      "regex": "^/api/auth/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPnextauth": "nxtPnextauth"
+      },
+      "namedRegex": "^/api/auth/(?<nxtPnextauth>.+?)(?:/)?$"
+    },
+    {
+      "page": "/invite/[id]",
+      "regex": "^/invite/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/invite/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/workspace/[id]",
       "regex": "^/workspace/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -68,10 +84,22 @@
       "namedRegex": "^/api/cron/reminders(?:/)?$"
     },
     {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
       "page": "/my-tasks",
       "regex": "^/my\\-tasks(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/my\\-tasks(?:/)?$"
+    },
+    {
+      "page": "/register",
+      "regex": "^/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/register(?:/)?$"
     },
     {
       "page": "/reports",
