@@ -73,8 +73,8 @@ export async function sendNotificationToUser(userId: string, title: string, body
             title,
             body,
             url,
-            icon: '/icon-192x192.png', // Necesitaremos agregar un icono en public/
-            badge: '/icon-192x192.png'
+            icon: '/icons/icon-192x192.png', // Necesitaremos agregar un icono en public/
+            badge: '/icons/icon-192x192.png'
         });
 
         // Enviar a todos sus dispositivos

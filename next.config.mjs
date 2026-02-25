@@ -7,6 +7,7 @@ const withPWA = withPWAInit({
     aggressiveFrontEndNavCaching: true,
     reloadOnOnline: true,
     swcMinify: true,
+    customWorkerDir: "worker",
 });
 
 /** @type {import('next').NextConfig} */
