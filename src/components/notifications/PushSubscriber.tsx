@@ -18,9 +18,11 @@ export default function PushSubscriber() {
 
     const checkSubscription = async () => {
         try {
-            const registration = await navigator.serviceWorker.ready;
-            const sub = await registration.pushManager.getSubscription();
-            setSubscription(sub);
+            let registration = await navigator.serviceWorker.getRegistration();
+            if (registration) {
+                const sub = await registration.pushManager.getSubscription();
+                setSubscription(sub);
+            }
         } catch (e) {
             console.error("Error checking sub", e);
         }
@@ -28,9 +30,23 @@ export default function PushSubscriber() {
 
     const subscribeToPush = async () => {
         setIsSubscribing(true);
-        setMessage('Iniciando suscripción...');
+        setMessage('1/5: Verificando permisos...');
         try {
-            const registration = await navigator.serviceWorker.ready;
+            const permission = await Notification.requestPermission();
+            if (permission !== 'granted') {
+                setMessage('Error: Permiso denegado por el usuario.');
+                setIsSubscribing(false);
+                return;
+            }
+
+            setMessage('2/5: Obteniendo Service Worker...');
+            let registration = await navigator.serviceWorker.getRegistration();
+            if (!registration) {
+                setMessage('2/5: Registrando Service Worker...');
+                registration = await navigator.serviceWorker.register('/sw.js');
+            }
+
+            setMessage('3/5: Obteniendo claves VAPID...');
 
             // Llaves públicas de nuestro .env embebidas por Next.js
             const publicVapidKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY;
@@ -43,6 +59,7 @@ export default function PushSubscriber() {
                 return;
             }
 
+            setMessage('4/5: Generando suscripción Push...');
             const sub = await registration.pushManager.subscribe({
                 userVisibleOnly: true,
                 applicationServerKey: urlBase64ToUint8Array(publicVapidKey)
@@ -52,6 +69,7 @@ export default function PushSubscriber() {
             const subStr = JSON.stringify(sub);
             const subObj = JSON.parse(subStr);
 
+            setMessage('5/5: Guardando en la base de datos...');
             const result = await savePushSubscription(subObj);
 
             if (result.success) {
