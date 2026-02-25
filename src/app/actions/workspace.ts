@@ -67,7 +67,6 @@ export async function deleteWorkspace(id: string) {
 // Get Workspace Members
 export async function getWorkspaceMembers(workspaceId: string) {
     try {
-        // Obtenemos los miembros formales
         const members = await prisma.workspaceMember.findMany({
             where: { workspaceId },
             include: { user: true }
@@ -78,35 +77,52 @@ export async function getWorkspaceMembers(workspaceId: string) {
 
         let users = members.map(m => m.user);
 
-        // Siempre incluimos al usuario personal (admin) para que pueda asignarse a sí mismo en los workspaces
+        // Include current user implicitly so they can assign themselves.
         if (currentUser && !users.find(u => u.id === currentUser.id)) {
             users.push(currentUser);
         }
 
-        if (users.length > 0) {
-            return users;
-        }
-
-        // Fallback: Si no hay miembros formalmente unidos, devolver todos los usuarios 
-        // para propósitos de prueba de la UI.
-        const allUsers = await prisma.user.findMany();
-
-        // Si no hay usuarios en absoluto, creamos uno mock para que la UI funcione
-        if (allUsers.length === 0) {
-            const mockUser = await prisma.user.create({
-                data: {
-                    email: `mock-${Date.now()}@example.com`,
-                    name: 'Usuario de Prueba'
-                }
-            });
-            return [mockUser];
-        }
-
-        return allUsers;
-
+        return users;
     } catch (error) {
         console.error('Error fetching workspace members:', error);
         return [];
+    }
+}
+
+// Join Workspace (via Invite Link)
+export async function joinWorkspace(workspaceId: string) {
+    try {
+        const { getCurrentUser } = await import('@/app/actions/user');
+        const currentUser = await getCurrentUser();
+
+        if (!currentUser) {
+            return { error: 'No autorizado' };
+        }
+
+        const existingMember = await prisma.workspaceMember.findUnique({
+            where: {
+                userId_workspaceId: {
+                    userId: currentUser.id,
+                    workspaceId: workspaceId
+                }
+            }
+        });
+
+        if (!existingMember) {
+            await prisma.workspaceMember.create({
+                data: {
+                    userId: currentUser.id,
+                    workspaceId,
+                    role: 'MEMBER'
+                }
+            });
+            revalidatePath(`/workspace/${workspaceId}`);
+        }
+
+        return { success: true };
+    } catch (error) {
+        console.error('Error joining workspace:', error);
+        return { error: 'Error al unirse al proyecto' };
     }
 }
 

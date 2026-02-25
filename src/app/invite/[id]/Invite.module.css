@@ -1,0 +1,85 @@
+.pageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--background, #0f111a);
+    padding: 1rem;
+}
+
+.card {
+    background-color: var(--sidebar-bg, #1a1e2d);
+    padding: 3rem 2rem;
+    border-radius: var(--radius-lg, 12px);
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.projectName {
+    color: var(--primary, #3b82f6);
+    font-weight: bold;
+}
+
+.desc {
+    color: #aaa;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.primaryBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    border-radius: 6px;
+    background-color: var(--primary, #3b82f6);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.primaryBtn:hover {
+    background-color: #2563eb;
+}
+
+.secondaryBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.secondaryBtn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

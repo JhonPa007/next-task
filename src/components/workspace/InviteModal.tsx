@@ -1,7 +1,6 @@
 'use client';
 
-import React, { useState, useTransition } from 'react';
-import { inviteUserToWorkspace } from '@/app/actions/workspace';
+import React, { useState, useEffect } from 'react';
 import styles from './InviteModal.module.css';
 
 interface InviteModalProps {
@@ -11,35 +10,26 @@ interface InviteModalProps {
 }
 
 export default function InviteModal({ workspaceId, isOpen, onClose }: InviteModalProps) {
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState<{ type: 'success' | 'error', text: string } | null>(null);
-    const [isPending, startTransition] = useTransition();
+    const [inviteUrl, setInviteUrl] = useState('');
+    const [copied, setCopied] = useState(false);
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            setInviteUrl(`${window.location.origin}/invite/${workspaceId}`);
+        }
+    }, [workspaceId]);
 
     if (!isOpen) return null;
 
-    const handleSubmit = async (e: React.FormEvent) => {
-        e.preventDefault();
-        setMessage(null);
+    const handleCopy = () => {
+        navigator.clipboard.writeText(inviteUrl);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+    };
 
-        if (!email.trim() || !email.includes('@')) {
-            setMessage({ type: 'error', text: 'Por favor, introduce un correo electrónico válido.' });
-            return;
-        }
-
-        startTransition(async () => {
-            const result = await inviteUserToWorkspace(workspaceId, email);
-            if (result.error) {
-                setMessage({ type: 'error', text: result.error });
-            } else {
-                setMessage({ type: 'success', text: result.message || 'Miembro añadido.' });
-                setEmail(''); // reset
-                // Cierra el modal automáticamente después de un segundo si hay éxito
-                setTimeout(() => {
-                    onClose();
-                    setMessage(null);
-                }, 1500);
-            }
-        });
+    const handleWhatsApp = () => {
+        const text = encodeURIComponent(`¡Hola! Te invito a colaborar en este proyecto. Haz clic aquí para unirte: ${inviteUrl}`);
+        window.open(`https://wa.me/?text=${text}`, '_blank');
     };
 
     return (
@@ -48,28 +38,24 @@ export default function InviteModal({ workspaceId, isOpen, onClose }: InviteModa
                 <button className={styles.closeBtn} onClick={onClose}>×</button>
                 <h3 className={styles.modalTitle}>Invitar al Workspace</h3>
                 <p className={styles.modalDesc}>
-                    Escribe el correo electrónico de tu colaborador. Si no tiene cuenta, le crearemos una temporal para que puedas asignarle tareas inmediatamente.
+                    Comparte el enlace a continuación. Si tu compañero no tiene cuenta, se le pedirá registrarse antes de unirse al proyecto automáticamente.
                 </p>
 
-                <form onSubmit={handleSubmit} className={styles.form}>
+                <div className={styles.linkContainer}>
                     <input
-                        type="email"
-                        placeholder="ejemplo@equipo.com"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        className={styles.input}
-                        disabled={isPending}
-                        autoFocus
+                        type="text"
+                        readOnly
+                        value={inviteUrl}
+                        className={styles.inputLink}
                     />
-                    {message && (
-                        <div className={`${styles.message} ${message.type === 'error' ? styles.errorMsg : styles.successMsg}`}>
-                            {message.text}
-                        </div>
-                    )}
-                    <button type="submit" className={styles.submitBtn} disabled={isPending}>
-                        {isPending ? 'Enviando...' : 'Añadir Miembro'}
+                    <button onClick={handleCopy} className={styles.copyBtn}>
+                        {copied ? '¡Copiado!' : 'Copiar'}
                     </button>
-                </form>
+                </div>
+
+                <button onClick={handleWhatsApp} className={styles.waBtn}>
+                    Enviar por WhatsApp
+                </button>
             </div>
         </div>
     );
