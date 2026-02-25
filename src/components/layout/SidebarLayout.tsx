@@ -33,6 +33,13 @@ export default function SidebarLayout({ children, initialWorkspaces }: SidebarLa
         return () => window.removeEventListener('resize', checkMobile);
     }, []);
 
+    // Auto-close sidebar on mobile when navigating
+    useEffect(() => {
+        if (isMobile && !isCollapsed) {
+            setIsCollapsed(true);
+        }
+    }, [pathname]);
+
     const toggleSidebar = () => setIsCollapsed(!isCollapsed);
 
     // Si es Login o Registro, no dibujamos la barra lateral para nada

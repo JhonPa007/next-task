@@ -169,6 +169,15 @@ export default function GoalList({ workspaceId, initialGoals }: GoalListProps) {
         }
     };
 
+    const statusText = (status: string) => {
+        switch (status) {
+            case 'ON_TRACK': return 'A Tiempo';
+            case 'AT_RISK': return 'En Riesgo';
+            case 'OFF_TRACK': return 'Atrasado';
+            default: return status;
+        }
+    };
+
     return (
         <div className={styles.container}>
             {/* Cabecera Principal Colapsable */}
@@ -255,7 +264,7 @@ export default function GoalList({ workspaceId, initialGoals }: GoalListProps) {
                                             🩺 Analizar
                                         </button>
                                         <span className={styles.badge} style={{ backgroundColor: statusColor(goal.status) }}>
-                                            {goal.status}
+                                            {statusText(goal.status)}
                                         </span>
                                     </div>
                                 </div>
@@ -263,7 +272,7 @@ export default function GoalList({ workspaceId, initialGoals }: GoalListProps) {
                                 {/* KR SECTION */}
                                 <div className={styles.keyResults}>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
-                                        <p className={styles.krLabel} style={{ margin: 0 }}>Key Results (Resultados Clave):</p>
+                                        <p className={styles.krLabel} style={{ margin: 0 }}>Resultados Clave:</p>
                                         <button onClick={() => handleStartCreateKr(goal.id)} className={styles.btnSecondary} style={{ fontSize: '0.8rem', padding: '2px 8px' }}>
                                             + Añadir KR
                                         </button>

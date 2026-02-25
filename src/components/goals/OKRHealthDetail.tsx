@@ -56,8 +56,8 @@ export default function OKRHealthDetail({ goalId, goalTitle, onClose }: Props) {
             report.health === 'AT_RISK' ? '#f59e0b' : '#ef4444';
 
     const healthLabel =
-        report.health === 'ON_TRACK' ? 'Buen Ritmo (On Track)' :
-            report.health === 'AT_RISK' ? 'En Riesgo (At Risk)' : 'Desviado (Off Track)';
+        report.health === 'ON_TRACK' ? 'A Tiempo' :
+            report.health === 'AT_RISK' ? 'En Riesgo' : 'Atrasado';
 
     // Mock data for Burndown chart based on metrics. 
     // In a real scenario we'd query historical snapshots.
