@@ -9,3 +9,4 @@
 [00:00:03.566] Server  LOG      ○ (pwa) "Building in development mode, caching and precaching are disabled for the most part. This means that offline support is disabled, but you can continue developing other functions in service worker."
 [00:00:07.858] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
 [00:00:08.068] Server  LOG     ✓ Ready in 7.6s
+[07:01:57.929] Server  LOG     ○ Compiling /api/auth/[...nextauth] ...
