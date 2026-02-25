@@ -7,6 +7,7 @@ export default function PushSubscriber() {
     const [isSupported, setIsSupported] = useState(false);
     const [subscription, setSubscription] = useState<PushSubscription | null>(null);
     const [message, setMessage] = useState('');
+    const [isSubscribing, setIsSubscribing] = useState(false);
 
     useEffect(() => {
         if ('serviceWorker' in navigator && 'PushManager' in window) {
@@ -16,12 +17,18 @@ export default function PushSubscriber() {
     }, []);
 
     const checkSubscription = async () => {
-        const registration = await navigator.serviceWorker.ready;
-        const sub = await registration.pushManager.getSubscription();
-        setSubscription(sub);
+        try {
+            const registration = await navigator.serviceWorker.ready;
+            const sub = await registration.pushManager.getSubscription();
+            setSubscription(sub);
+        } catch (e) {
+            console.error("Error checking sub", e);
+        }
     };
 
     const subscribeToPush = async () => {
+        setIsSubscribing(true);
+        setMessage('Iniciando suscripción...');
         try {
             const registration = await navigator.serviceWorker.ready;
 
@@ -29,7 +36,10 @@ export default function PushSubscriber() {
             const publicVapidKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY;
 
             if (!publicVapidKey) {
-                setMessage('Error: VAPID keys missing');
+                const errMsg = 'Error: NEXT_PUBLIC_VAPID_PUBLIC_KEY no está definida. Si la añadiste a Railway, debes re-desplegar la aplicación.';
+                setMessage(errMsg);
+                alert(errMsg);
+                setIsSubscribing(false);
                 return;
             }
 
@@ -47,15 +57,19 @@ export default function PushSubscriber() {
             if (result.success) {
                 setSubscription(sub);
                 setMessage('¡Notificaciones Activadas!');
+                alert('¡Suscripción exitosa!');
                 setTimeout(() => setMessage(''), 3000);
             } else {
-                setMessage('Error al guardar suscripción en BD');
+                setMessage(`Error en BD: ${result.error}`);
+                alert(`Error guardando en BD: ${result.error}`);
             }
 
-        } catch (error) {
+        } catch (error: any) {
             console.error('Error in subscribeToPush:', error);
-            setMessage('Permiso de notificaciones denegado.');
+            setMessage(`Denegado / Error: ${error.message}`);
+            alert(`Error al suscribir: ${error.message}`);
         }
+        setIsSubscribing(false);
     };
 
     if (!isSupported) {
